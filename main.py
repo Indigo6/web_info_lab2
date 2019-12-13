@@ -17,8 +17,12 @@ if __name__ == "__main__":
         train_data = []
         test_data = []
         with open(train_path, "r", encoding="utf-8") as f:
+            sentence_data = []
+            label_data = []
             for line in f.readlines():
                 dic = json.loads(line)
+                sentences = dic['originalText'].split('。')
+                sentence_data.extend(sentences)
                 train_data.append(dic)
         with open(test_path, "r", encoding="utf-8") as f:
             for line in f.readlines():
