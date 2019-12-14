@@ -1,0 +1,6 @@
+﻿B-PER 人名
+I-PER 人名
+B-LOC 地名
+I-LOC 地名
+B-ORG 组织
+I-ORG 组织

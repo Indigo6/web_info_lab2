@@ -9,9 +9,11 @@ from keras.preprocessing.sequence import pad_sequences
 from keras_bert import load_trained_model_from_checkpoint
 from keras_bert import Tokenizer
 import matplotlib.pyplot as plt
+import pdb
 
 class bert_bilstm_crf:
-    def __init__(self, max_seq_length, batch_size, epochs, lstm_dim):
+    def __init__(self, max_seq_length, batch_size, epochs, lstm_dim, label_path):
+        self.label_path = label_path
         self.label = {}
         self._label = {}
         self.max_seq_length = max_seq_length
@@ -24,8 +26,7 @@ class bert_bilstm_crf:
     #抽取的标签
     def LoadLabel(self):
         #label
-        label_path = ".//Parameter//tag_dict2.txt"
-        f_label = open(label_path, 'r+', encoding='utf-8')
+        f_label = open(self.label_path, 'r+', encoding='utf-8')
         for line in f_label:
             line = line.encode('utf-8').decode('utf-8-sig')
             content = line.strip().split()
@@ -33,14 +34,14 @@ class bert_bilstm_crf:
             self._label[content[1].strip()] = content[0].strip()
         #dict
         self.vocab = {}
-        vocab_path = ".//Parameter//chinese_L-12_H-768_A-12//vocab.txt"
+        vocab_path = "./Parameter/chinese_L-12_H-768_A-12/vocab.txt"
         with open(vocab_path, 'r+', encoding='utf-8') as f_vocab:
             for line in f_vocab.readlines():
                 self.vocab[line.strip()] = len(self.vocab)
 
     #模型
     def Model(self):
-        model_path = ".\\Parameter\\chinese_L-12_H-768_A-12\\"
+        model_path = "./Parameter/chinese_L-12_H-768_A-12/"
         bert = load_trained_model_from_checkpoint(
             model_path + "bert_config.json",
             model_path + "bert_model.ckpt",
@@ -129,6 +130,7 @@ class bert_bilstm_crf:
         labels, types = self.PreProcessInputData([sentence])
         self.model.load_weights('keras_bert')
         tags = self.model.predict([labels, types])[0]
+        # pdb.set_trace()
         result = []
         for i in range(1, len(sentence) + 1):
             result.append(tags[i])
