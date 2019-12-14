@@ -4,8 +4,8 @@ import json
 
 
 if __name__ == "__main__":
-    in_web = True
-    if_train = False
+    in_web = False
+    if_train = True
     # 数据
     if not in_web:
         train_path = "./Data/train1.txt"
