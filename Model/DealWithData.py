@@ -46,7 +46,7 @@ def GenerateData(json_path, train_path, validate_path):
                 tag = tag_map[entity['label_type']]
                 for i in range(ini_pos, start_pos):
                     sentence_cur += 1
-                    if original_text[i] == ' ':
+                    if original_text[i] == ' ' or original_text[i] == '\t':
                         datas[choose_index] += '\n'
                         continue
                     datas[choose_index] += original_text[i]
@@ -72,7 +72,7 @@ def GenerateData(json_path, train_path, validate_path):
                 ini_pos = end_pos
             # append remaining data
             for i in range(ini_pos, len(original_text)):
-                if original_text[i] == ' ':
+                if original_text[i] == ' ' or original_text[i] == '\t':
                     datas[choose_index] += '\n'
                     continue
                 datas[choose_index] += original_text[i]
