@@ -46,6 +46,9 @@ def GenerateData(json_path, train_path, validate_path):
                 tag = tag_map[entity['label_type']]
                 for i in range(ini_pos, start_pos):
                     sentence_cur += 1
+                    if original_text[i] == ' ':
+                        datas[choose_index] += '\n'
+                        continue
                     datas[choose_index] += original_text[i]
                     datas[choose_index] += ' O\n'
                     if original_text[i] == '。' or original_text[i] == '，' or original_text[i] == ',' or original_text[i] == '.':
@@ -66,16 +69,12 @@ def GenerateData(json_path, train_path, validate_path):
                     datas[choose_index] += original_text[i]
                     datas[choose_index] += tmpstr
                     sentence_cur += 1
-                    if original_text[i] == '。' or original_text[i] == '，'or original_text[i] == ',' or original_text[i] == '.':
-                        datas[choose_index] += '\n'
-                        if sentence_cur - start_sentence >= 80:
-                            num += 1
-                            _max_sentence = sentence_cur - start_sentence
-                            print(_max_sentence)
-                            print(original_text[start_sentence:sentence_cur])
-                        start_sentence = sentence_cur
                 ini_pos = end_pos
-            for i in range(end_pos, len(original_text)):
+            # append remaining data
+            for i in range(ini_pos, len(original_text)):
+                if original_text[i] == ' ':
+                    datas[choose_index] += '\n'
+                    continue
                 datas[choose_index] += original_text[i]
                 datas[choose_index] += ' O\n'
                 if original_text[i] == '。' or original_text[i] == '，'or original_text[i] == ',' or original_text[i] == '.':
