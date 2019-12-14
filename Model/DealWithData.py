@@ -11,10 +11,10 @@ def PreProcessData(path):
                 continue
             _sentence = ""
             tag = []
-            for word in sentence.strip().split('\n'):
-                content = word.strip().split()
-                _sentence += content[0]
-                tag.append(content[1])
+            for word in sentence.split('\n'):
+                if len(word) is 3:
+                    _sentence += word[0]
+                    tag.append(word[2])
             sentences.append(_sentence)
             tags.append(tag)
     data = (sentences, tags)

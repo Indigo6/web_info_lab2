@@ -4,7 +4,7 @@ import json
 
 
 if __name__ == "__main__":
-    in_web = False
+    in_web = True
     if_train = True
     # 数据
     if not in_web:

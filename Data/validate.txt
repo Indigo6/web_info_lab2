@@ -552,7 +552,6 @@ D O
 胞 I-DIS
 癌 I-DIS
 ， I-DIS
-
 内 I-DIS
 生 I-DIS
 浸 I-DIS
@@ -3014,7 +3013,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 : I-DIS
@@ -3105,7 +3103,6 @@ N I-DIS
 M I-DIS
 0 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -3265,26 +3262,26 @@ A I-LAB
 1 I-LAB
 2 I-LAB
 5 I-LAB
-  O
+
 6 O
 2 O
 3 O
-  O
+
 U O
 / O
 M O
 L O
-  O
+
 C B-LAB
 A I-LAB
 1 I-LAB
 9 I-LAB
 9 I-LAB
-  O
+
 5 O
 2 O
 2 O
-  O
+
 U O
 / O
 M O
@@ -3348,7 +3345,7 @@ R I-RAY
 壁 O
 结 O
 节 O
-  O
+
 2 O
 . O
 
@@ -3666,8 +3663,8 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
+
+
 患 O
 者 O
 本 O
@@ -3684,7 +3681,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -3801,7 +3798,7 @@ U O
 理 O
 诊 O
 断 O
-  O
+
 ， O
 
 : O
@@ -3822,14 +3819,12 @@ U O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
 疡 I-DIS
 型 I-DIS
 ， I-DIS
-
 体 O
 积 O
 2 O
@@ -3851,7 +3846,7 @@ M O
 层 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -3871,7 +3866,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 五 B-ANA
 组 I-ANA
@@ -3889,7 +3884,7 @@ M O
 移 O
 。 O
 
-  O
+
 四 B-ANA
 组 I-ANA
 （ I-ANA
@@ -3928,7 +3923,7 @@ M O
 癌 O
 。 O
 
-  O
+
 ， O
 
 免 O
@@ -4070,7 +4065,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -4093,7 +4088,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -4167,9 +4162,9 @@ D O
 应 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -4229,9 +4224,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -4748,7 +4743,6 @@ D O
 鳞 B-DIS
 癌 I-DIS
 ， I-DIS
-
 P I-DIS
 T I-DIS
 3 I-DIS
@@ -5249,7 +5243,6 @@ G O
 玻 I-DIS
 变 I-DIS
 ， I-DIS
-
 大 I-DIS
 量 I-DIS
 炎 I-DIS
@@ -5417,9 +5410,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -5436,7 +5429,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -5820,9 +5813,9 @@ K O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 出 O
 院 O
 后 O
@@ -5984,9 +5977,9 @@ K O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -6211,9 +6204,9 @@ E I-OPE
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -6592,9 +6585,9 @@ E I-OPE
 议 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -6724,9 +6717,9 @@ C I-DIS
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -7259,28 +7252,28 @@ K O
 G O
 。 O
 
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 第 O
 一 O
 次 O
@@ -7509,29 +7502,29 @@ G O
 病 O
 。 O
 
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 第 O
 二 O
 次 O
@@ -7801,9 +7794,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -8635,9 +8628,9 @@ D I-DIS
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -8993,9 +8986,9 @@ D I-DIS
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -10362,11 +10355,11 @@ Y I-OPE
 体 O
 ： O
 T O
-  O
+
 ， O
 
 : O
-  O
+
 3 O
 7 O
 . O
@@ -10376,11 +10369,11 @@ T O
 ， O
 
 P O
-  O
+
 ， O
 
 : O
-  O
+
 7 O
 1 O
 次 O
@@ -10389,11 +10382,11 @@ P O
 ， O
 
 R O
-  O
+
 ， O
 
 : O
-  O
+
 1 O
 7 O
 次 O
@@ -10403,11 +10396,11 @@ R O
 
 B O
 P O
-  O
+
 ， O
 
 : O
-  O
+
 1 O
 5 O
 3 O
@@ -10586,27 +10579,27 @@ C B-LAB
 应 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 8 O
 7 O
-  O
+
 M O
 G O
 / O
 L O
 , O
 
-  O
+
 葡 B-LAB
 萄 I-LAB
 糖 I-LAB
-  O
+
 8 O
 . O
 
 5 O
 2 O
-  O
+
 M O
 M O
 O O
@@ -10621,14 +10614,14 @@ L O
 胱 I-LAB
 氨 I-LAB
 酸 I-LAB
-  O
+
 2 O
 6 O
 . O
 
 3 O
 0 O
-  O
+
 U O
 M O
 O O
@@ -10648,14 +10641,14 @@ L O
 活 I-LAB
 动 I-LAB
 度 I-LAB
-  O
+
 6 O
 1 O
 . O
 
 5 O
 0 O
-  O
+
 % O
 , O
 
@@ -10669,13 +10662,13 @@ L O
 酶 I-LAB
 时 I-LAB
 间 I-LAB
-  O
+
 4 O
 0 O
 . O
 
 8 O
-  O
+
 秒 O
 , O
 
@@ -10689,13 +10682,13 @@ L O
 酶 I-LAB
 比 I-LAB
 率 I-LAB
-  O
+
 1 O
 . O
 
 5 O
 4 O
-  O
+
 , O
 
 血 B-LAB
@@ -10706,13 +10699,13 @@ D I-LAB
 体 I-LAB
 测 I-LAB
 定 I-LAB
-  O
+
 0 O
 . O
 
 7 O
 2 O
-  O
+
 M O
 G O
 / O
@@ -10723,7 +10716,7 @@ L O
 钙 I-LAB
 素 I-LAB
 原 I-LAB
-  O
+
 0 O
 . O
 
@@ -10745,14 +10738,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 0 O
 . O
 
 8 O
 8 O
 9 O
-  O
+
 , O
 
 淋 B-LAB
@@ -10761,14 +10754,14 @@ L O
 胞 I-LAB
 计 I-LAB
 数 I-LAB
-  O
+
 0 O
 . O
 
 2 O
 7 O
 × O
-  O
+
 1 O
 0 O
 ^ O
@@ -10782,10 +10775,10 @@ L O
 板 I-LAB
 计 I-LAB
 数 I-LAB
-  O
+
 4 O
 8 O
-  O
+
 × O
 1 O
 0 O
@@ -10807,7 +10800,7 @@ L O
 I O
 A O
 ) O
-  O
+
 0 O
 . O
 
@@ -10827,7 +10820,7 @@ I O
 血 I-LAB
 阳 O
 性 O
-  O
+
 , O
 
 ， O
@@ -10839,34 +10832,34 @@ I O
 粒 B-LAB
 细 I-LAB
 胞 I-LAB
-  O
+
 + O
 1 O
-  O
+
 , O
 
 尿 B-LAB
 糖 I-LAB
-  O
+
 + O
 - O
-  O
+
 , O
 
 酮 B-LAB
 体 I-LAB
 + O
 2 O
-  O
+
 , O
 
 白 B-LAB
 细 I-LAB
 胞 I-LAB
-  O
+
 8 O
 0 O
-  O
+
 / O
 U O
 L O
@@ -10878,10 +10871,10 @@ L O
 皮 I-LAB
 细 I-LAB
 胞 I-LAB
-  O
+
 1 O
 5 O
-  O
+
 / O
 U O
 L O
@@ -10965,7 +10958,6 @@ T I-DIS
 腹 B-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 : O
@@ -11446,9 +11438,9 @@ M O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -11630,9 +11622,9 @@ D I-DIS
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -11908,9 +11900,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -11927,7 +11919,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -13512,9 +13504,9 @@ T I-RAY
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -13919,7 +13911,6 @@ S O
 腹 B-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -14008,7 +13999,7 @@ T I-RAY
 胞 I-LAB
 计 I-LAB
 数 I-LAB
-  O
+
 1 O
 0 O
 . O
@@ -14030,7 +14021,7 @@ L O
 细 I-LAB
 胞 I-LAB
 % O
-  O
+
 0 O
 . O
 
@@ -14044,7 +14035,7 @@ L O
 粒 I-LAB
 细 I-LAB
 胞 I-LAB
-  O
+
 8 O
 . O
 
@@ -14064,7 +14055,7 @@ L O
 胞 I-LAB
 计 I-LAB
 数 I-LAB
-  O
+
 2 O
 . O
 
@@ -14084,13 +14075,13 @@ L O
 红 I-LAB
 蛋 I-LAB
 白 O
-  O
+
 6 O
 5 O
 . O
 
 0 O
-  O
+
 G O
 / O
 L O
@@ -14102,14 +14093,14 @@ L O
 素 I-LAB
 原 I-LAB
 : O
-  O
+
 0 O
 . O
 
 1 O
 0 O
 7 O
-  O
+
 N O
 G O
 / O
@@ -14129,7 +14120,7 @@ P I-LAB
 
 0 O
 0 O
-  O
+
 M O
 G O
 / O
@@ -14144,7 +14135,7 @@ L O
 : O
 隐 B-LAB
 血 I-LAB
-  O
+
 + O
 ； O
 癌 B-LAB
@@ -14158,7 +14149,7 @@ L O
 
 4 O
 4 O
-  O
+
 N O
 G O
 / O
@@ -14173,13 +14164,13 @@ L O
 总 B-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 5 O
 1 O
 . O
 
 2 O
-  O
+
 G O
 / O
 L O
@@ -14192,7 +14183,6 @@ T I-RAY
 腹 B-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -14391,9 +14381,9 @@ U O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -14407,7 +14397,7 @@ U O
 螺 B-MED
 内 I-MED
 酯 I-MED
-  O
+
 一 O
 次 O
 3 O
@@ -14596,9 +14586,9 @@ U O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -14791,7 +14781,7 @@ G O
 瘤 I-DIS
 。 O
 
-  O
+
 2 O
 、 O
 萎 B-DIS
@@ -14802,7 +14792,7 @@ G O
 膜 I-DIS
 。 O
 
-  O
+
 3 O
 、 O
 慢 B-DIS
@@ -14812,7 +14802,7 @@ G O
 炎 I-DIS
 。 O
 
-  O
+
 4 O
 、 O
 （ B-ANA
@@ -14842,7 +14832,6 @@ G O
 腺 I-DIS
 瘤 I-DIS
 ， I-DIS
-
 局 I-DIS
 灶 I-DIS
 癌 I-DIS
@@ -15061,9 +15050,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -15080,7 +15069,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -15396,7 +15385,7 @@ I I-RAY
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 心 B-DIS
 房 I-DIS
 颤 I-DIS
@@ -15406,7 +15395,7 @@ I I-RAY
 
 肺 B-DIS
 炎 I-DIS
-  O
+
 两 B-DIS
 侧 I-DIS
 胸 I-DIS
@@ -15580,9 +15569,9 @@ U O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 出 O
@@ -15688,9 +15677,9 @@ U O
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -16289,9 +16278,9 @@ M O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -16795,7 +16784,6 @@ T I-RAY
 病 I-DIS
 灶 I-DIS
 ， I-DIS
-
 考 I-DIS
 虑 I-DIS
 转 I-DIS
@@ -16937,7 +16925,7 @@ A I-LAB
 1 I-LAB
 2 I-LAB
 5 I-LAB
-  O
+
 1 O
 8 O
 5 O
@@ -17349,9 +17337,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -17368,7 +17356,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -18009,13 +17997,13 @@ G O
 T O
 I O
 D O
-  O
+
 阿 B-MED
 托 I-MED
 伐 I-MED
 他 I-MED
 汀 I-MED
-  O
+
 2 O
 0 O
 M O
@@ -18152,9 +18140,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 发 O
@@ -18194,10 +18182,10 @@ G O
 降 I-MED
 压 I-MED
 片 I-MED
-  O
+
 1 O
 粒 O
-  O
+
 Q O
 O O
 D O
@@ -18291,7 +18279,7 @@ D O
 氯 I-MED
 地 I-MED
 平 I-MED
-  O
+
 5 O
 M O
 G O
@@ -18308,7 +18296,7 @@ D O
 缓 I-MED
 释 I-MED
 片 I-MED
-  O
+
 2 O
 3 O
 . O
@@ -18341,9 +18329,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -18354,7 +18342,7 @@ U O
 来 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -18924,9 +18912,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -18943,7 +18931,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -19318,9 +19306,9 @@ U O
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 发 O
 病 O
 以 O
@@ -20049,7 +20037,7 @@ F O
 0 O
 M O
 G O
-  O
+
 Q O
 D O
 治 O
@@ -21284,7 +21272,6 @@ T I-RAY
 巴 I-DIS
 结 I-DIS
 ， I-DIS
-
 转 I-DIS
 移 I-DIS
 ？ O
@@ -21296,7 +21283,6 @@ T I-RAY
 片 I-DIS
 影 I-DIS
 ， I-DIS
-
 炎 I-DIS
 症 I-DIS
 ？ O
@@ -21354,7 +21340,6 @@ A I-DIS
 M I-DIS
 0 I-DIS
 , I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -21564,19 +21549,19 @@ X O
 ） I-DIS
 ， O
 
-  O
+
 E O
 R O
 （ O
 － O
 ） O
-  O
+
 P O
 R O
 （ O
 － O
 ） O
-  O
+
 C O
 E O
 R O
@@ -21595,7 +21580,7 @@ A O
 + O
 + O
 ） O
-  O
+
 ， O
 
 并 O
@@ -21723,9 +21708,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 于 O
@@ -21841,9 +21826,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -24470,7 +24455,7 @@ N I-OPE
 节 O
 。 O
 
-  O
+
 2 O
 、 O
 （ O
@@ -24566,9 +24551,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 发 O
@@ -24579,7 +24564,7 @@ U O
 
 神 O
 志 O
-  O
+
 清 O
 晰 O
 ， O
@@ -24925,9 +24910,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -24944,7 +24929,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -26394,7 +26379,6 @@ Y I-OPE
 癌 I-DIS
 ） I-DIS
 ， I-DIS
-
 分 I-DIS
 期 I-DIS
 T I-DIS
@@ -26530,9 +26514,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -27344,13 +27328,13 @@ T I-RAY
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 2 O
 、 O
 冠 B-DIS
 心 I-DIS
 病 I-DIS
-  O
+
 缺 B-DIS
 血 I-DIS
 性 I-DIS
@@ -27358,32 +27342,32 @@ T I-RAY
 肌 I-DIS
 病 I-DIS
 型 I-DIS
-  O
+
 心 B-ANA
 脏 I-ANA
 增 O
 大 O
-  O
+
 心 B-DIS
 房 I-DIS
 纤 I-DIS
 颤 I-DIS
-  O
+
 心 B-DIS
 衰 I-DIS
-  O
+
 心 B-DIS
 包 I-DIS
 腔 I-DIS
 积 I-DIS
 液 I-DIS
-  O
+
 心 B-DIS
 功 I-DIS
 能 I-DIS
 Ⅲ I-DIS
 级 I-DIS
-  O
+
 3 O
 、 O
 支 B-DIS
@@ -27391,11 +27375,11 @@ T I-RAY
 管 I-DIS
 扩 I-DIS
 张 I-DIS
-  O
+
 4 O
 . O
 
-  O
+
 右 B-ANA
 肺 I-ANA
 中 O
@@ -27653,7 +27637,7 @@ T I-RAY
 碳 I-LAB
 总 I-LAB
 量 I-LAB
-  O
+
 3 O
 9 O
 m O
@@ -27666,7 +27650,7 @@ l O
 酸 B-LAB
 碱 I-LAB
 度 I-LAB
-  O
+
 7 O
 . O
 
@@ -27680,7 +27664,7 @@ l O
 碳 I-LAB
 分 I-LAB
 压 I-LAB
-  O
+
 6 O
 6 O
 m O
@@ -27691,7 +27675,7 @@ g O
 氧 B-LAB
 分 I-LAB
 压 I-LAB
-  O
+
 1 O
 6 O
 3 O
@@ -27704,7 +27688,7 @@ g O
 酸 I-LAB
 氢 I-LAB
 根 I-LAB
-  O
+
 3 O
 7 O
 . O
@@ -27723,7 +27707,7 @@ l O
 酸 I-LAB
 氢 I-LAB
 根 I-LAB
-  O
+
 3 O
 1 O
 . O
@@ -27744,7 +27728,7 @@ l O
 碱 I-LAB
 剩 I-LAB
 余 I-LAB
-  O
+
 1 O
 1 O
 . O
@@ -27762,7 +27746,7 @@ l O
 碱 I-LAB
 剩 I-LAB
 余 I-LAB
-  O
+
 8 O
 . O
 
@@ -27780,14 +27764,14 @@ l O
 饱 I-LAB
 和 I-LAB
 度 I-LAB
-  O
+
 9 O
 9 O
 % O
 、 O
 乳 B-LAB
 酸 I-LAB
-  O
+
 1 O
 . O
 
@@ -27809,12 +27793,12 @@ l O
 细 I-LAB
 胞 I-LAB
 数 I-LAB
-  O
+
 8 O
 . O
 
 3 O
-  O
+
 1 O
 0 O
 ^ O
@@ -27828,7 +27812,7 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 3 O
 9 O
@@ -27840,11 +27824,11 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 8 O
 1 O
-  O
+
 1 O
 0 O
 ^ O
@@ -27860,7 +27844,7 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 4 O
 . O
@@ -27876,7 +27860,7 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 1 O
 1 O
 . O
@@ -27891,7 +27875,7 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 9 O
 . O
 
@@ -27906,7 +27890,7 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 6 O
 3 O
 . O
@@ -27921,7 +27905,7 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 2 O
 8 O
 9 O
@@ -27941,7 +27925,7 @@ l O
 质 O
 ： O
 钾 B-LAB
-  O
+
 3 O
 . O
 
@@ -27955,7 +27939,7 @@ l O
 l O
 、 O
 钠 B-LAB
-  O
+
 1 O
 4 O
 7 O
@@ -27969,7 +27953,7 @@ l O
 / O
 、 O
 氯 B-LAB
-  O
+
 1 O
 0 O
 4 O
@@ -28205,7 +28189,7 @@ T I-RAY
 尿 B-DIS
 毒 I-DIS
 症 I-DIS
-  O
+
 肾 B-DIS
 性 I-DIS
 贫 I-DIS
@@ -28292,7 +28276,7 @@ T I-RAY
 血 B-LAB
 肌 I-LAB
 酐 I-LAB
-  O
+
 6 O
 3 O
 8 O
@@ -28307,7 +28291,7 @@ L O
 尿 B-LAB
 素 I-LAB
 氮 I-LAB
-  O
+
 2 O
 2 O
 . O
@@ -28330,7 +28314,7 @@ L O
 红 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 8 O
 9 O
 g O
@@ -28344,7 +28328,7 @@ L O
 ： O
 血 B-LAB
 钾 I-LAB
-  O
+
 4 O
 . O
 
@@ -29538,7 +29522,7 @@ T I-RAY
 
 0 O
 0 O
-  O
+
 % O
 ↓ O
 、 O
@@ -29547,7 +29531,7 @@ T I-RAY
 压 I-LAB
 4 O
 5 O
-  O
+
 m O
 m O
 H O
@@ -29563,7 +29547,7 @@ g O
 压 I-LAB
 3 O
 0 O
-  O
+
 m O
 m O
 H O
@@ -29578,7 +29562,7 @@ g O
 
 4 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -29672,12 +29656,12 @@ l O
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 7 O
 . O
 
 5 O
-  O
+
 1 O
 0 O
 ^ O
@@ -29688,13 +29672,13 @@ L O
 R B-LAB
 B I-LAB
 C I-LAB
-  O
+
 4 O
 . O
 
 5 O
 1 O
-  O
+
 1 O
 0 O
 ^ O
@@ -29706,11 +29690,11 @@ L O
 H B-LAB
 G I-LAB
 B I-LAB
-  O
+
 1 O
 2 O
 8 O
-  O
+
 g O
 / O
 L O
@@ -29719,11 +29703,11 @@ L O
 P B-LAB
 L I-LAB
 T I-LAB
-  O
+
 2 O
 1 O
 3 O
-  O
+
 1 O
 0 O
 ^ O
@@ -29739,13 +29723,13 @@ U B-LAB
 R I-LAB
 E I-LAB
 A I-LAB
-  O
+
 5 O
 . O
 
 4 O
 4 O
-  O
+
 m O
 m O
 o O
@@ -29757,13 +29741,13 @@ C B-LAB
 R I-LAB
 E I-LAB
 A I-LAB
-  O
+
 5 O
 7 O
 . O
 
 5 O
-  O
+
 μ O
 m O
 o O
@@ -29773,14 +29757,14 @@ l O
 、 O
 U B-LAB
 A I-LAB
-  O
+
 2 O
 0 O
 8 O
 . O
 
 8 O
-  O
+
 μ O
 m O
 o O
@@ -29796,13 +29780,13 @@ l O
 1 O
 : O
 K B-LAB
-  O
+
 5 O
 . O
 
 0 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -29812,14 +29796,14 @@ l O
 、 O
 N B-LAB
 a I-LAB
-  O
+
 1 O
 4 O
 1 O
 . O
 
 4 O
-  O
+
 m O
 m O
 o O
@@ -29828,13 +29812,13 @@ l O
 、 O
 C B-LAB
 l I-LAB
-  O
+
 9 O
 8 O
 . O
 
 1 O
-  O
+
 m O
 m O
 o O
@@ -29852,27 +29836,27 @@ l O
 A B-LAB
 S I-LAB
 T I-LAB
-  O
+
 3 O
 4 O
 . O
 
 0 O
-  O
+
 U O
 / O
 L O
 、 O
 C B-LAB
 K I-LAB
-  O
+
 3 O
 6 O
 0 O
 . O
 
 7 O
-  O
+
 U O
 / O
 L O
@@ -29883,10 +29867,10 @@ K I-LAB
 - I-LAB
 M I-LAB
 B I-LAB
-  O
+
 1 O
 5 O
-  O
+
 U O
 / O
 L O
@@ -29894,14 +29878,14 @@ L O
 L B-LAB
 D I-LAB
 H I-LAB
-  O
+
 2 O
 2 O
 2 O
 . O
 
 9 O
-  O
+
 U O
 / O
 L O
@@ -29923,14 +29907,14 @@ S I-LAB
 S I-LAB
 T I-LAB
 T I-LAB
-  O
+
 3 O
 8 O
 . O
 
 2 O
 9 O
-  O
+
 p O
 g O
 / O
@@ -29948,13 +29932,13 @@ _ O
 D B-LAB
 - I-LAB
 D I-LAB
-  O
+
 1 O
 . O
 
 9 O
 0 O
-  O
+
 μ O
 g O
 / O
@@ -29970,63 +29954,63 @@ l O
 : O
 P B-LAB
 T I-LAB
-  O
+
 1 O
 2 O
 . O
 
 3 O
-  O
+
 秒 O
 、 O
 I B-LAB
 N I-LAB
 R I-LAB
-  O
+
 1 O
 . O
 
 0 O
 4 O
-  O
+
 、 O
 A B-LAB
 P I-LAB
 T I-LAB
 T I-LAB
-  O
+
 1 O
 7 O
 . O
 
 7 O
-  O
+
 秒 O
 ↓ O
 、 O
 F B-LAB
 I I-LAB
 B I-LAB
-  O
+
 3 O
 . O
 
 4 O
 1 O
-  O
+
 g O
 / O
 L O
 、 O
 T B-LAB
 T I-LAB
-  O
+
 1 O
 6 O
 . O
 
 4 O
-  O
+
 秒 O
 ， O
 
@@ -30041,10 +30025,10 @@ T B-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 2 O
 1 O
-  O
+
 m O
 m O
 o O
@@ -30055,23 +30039,23 @@ l O
 、 O
 p B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
 4 O
 4 O
 0 O
-  O
+
 、 O
 P B-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 3 O
 0 O
-  O
+
 m O
 m O
 H O
@@ -30081,10 +30065,10 @@ g O
 P B-LAB
 O I-LAB
 2 I-LAB
-  O
+
 4 O
 5 O
-  O
+
 m O
 m O
 H O
@@ -30096,13 +30080,13 @@ H B-LAB
 C I-LAB
 O I-LAB
 3 I-LAB
-  O
+
 2 O
 0 O
 . O
 
 4 O
-  O
+
 m O
 m O
 o O
@@ -30114,14 +30098,14 @@ l O
 S B-LAB
 B I-LAB
 C I-LAB
-  O
+
 2 O
 2 O
 . O
 
 4 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -30136,13 +30120,13 @@ e I-LAB
 c I-LAB
 f I-LAB
 ) I-LAB
-  O
+
 - O
 3 O
 . O
 
 8 O
-  O
+
 m O
 m O
 o O
@@ -30156,14 +30140,14 @@ E I-LAB
 ( I-LAB
 B I-LAB
 ) I-LAB
-  O
+
 - O
 2 O
 . O
 
 8 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -30175,28 +30159,28 @@ s B-LAB
 O I-LAB
 2 I-LAB
 % I-LAB
-  O
+
 8 O
 3 O
 . O
 
 0 O
 0 O
-  O
+
 % O
 ↓ O
 、 O
 L B-LAB
 a I-LAB
 c I-LAB
-  O
+
 1 O
 1 O
 . O
 
 4 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -30209,13 +30193,13 @@ l O
 G B-LAB
 L I-LAB
 U I-LAB
-  O
+
 5 O
 . O
 
 8 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -30226,11 +30210,11 @@ l O
 N B-LAB
 a I-LAB
 + O
-  O
+
 1 O
 3 O
 8 O
-  O
+
 m O
 m O
 o O
@@ -30240,12 +30224,12 @@ l O
 、 O
 K B-LAB
 + O
-  O
+
 5 O
 . O
 
 0 O
-  O
+
 m O
 m O
 o O
@@ -30257,13 +30241,13 @@ C B-LAB
 a I-LAB
 + O
 + O
-  O
+
 1 O
 . O
 
 0 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -31309,7 +31293,7 @@ L O
 血 I-LAB
 试 I-LAB
 验 I-LAB
-  O
+
 阳 O
 性 O
 ， O
@@ -31321,7 +31305,7 @@ L O
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 1 O
 3 O
 . O
@@ -31338,7 +31322,7 @@ L O
 R B-LAB
 B I-LAB
 C I-LAB
-  O
+
 1 O
 . O
 
@@ -31355,7 +31339,7 @@ L O
 P B-LAB
 L I-LAB
 T I-LAB
-  O
+
 5 O
 0 O
 7 O
@@ -31369,7 +31353,7 @@ L O
 
 H B-LAB
 b I-LAB
-  O
+
 4 O
 8 O
 g O
@@ -31378,7 +31362,7 @@ L O
 ， O
 
 N B-LAB
-  O
+
 9 O
 2 O
 . O
@@ -31391,7 +31375,7 @@ N B-LAB
 H B-LAB
 c I-LAB
 t I-LAB
-  O
+
 1 O
 5 O
 . O
@@ -32000,7 +31984,7 @@ g O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 1 O
 2 O
 . O
@@ -32020,11 +32004,11 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 1 O
 6 O
-  O
+
 g O
 / O
 L O
@@ -32033,7 +32017,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 0 O
 3 O
@@ -32053,14 +32037,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 7 O
 6 O
 . O
 
 7 O
 4 O
-  O
+
 % O
 ， O
 
@@ -32076,10 +32060,10 @@ L O
 同 I-LAB
 工 I-LAB
 酶 I-LAB
-  O
+
 4 O
 1 O
-  O
+
 U O
 / O
 L O
@@ -32225,7 +32209,7 @@ L O
 P B-LAB
 L I-LAB
 T I-LAB
-  O
+
 6 O
 3 O
 × O
@@ -32237,7 +32221,7 @@ L O
 、 O
 H B-LAB
 B I-LAB
-  O
+
 6 O
 3 O
 g O
@@ -32325,11 +32309,11 @@ U O
 能 O
 异 O
 常 O
-  O
+
 B B-LAB
 U I-LAB
 N I-LAB
-  O
+
 1 O
 9 O
 . O
@@ -32341,12 +32325,12 @@ o O
 l O
 / O
 L O
-  O
+
 C B-LAB
 R I-LAB
 E I-LAB
 A I-LAB
-  O
+
 2 O
 2 O
 3 O
@@ -32481,7 +32465,7 @@ D I-DIS
 常 O
 规 O
 ： O
-  O
+
 H B-LAB
 b I-LAB
 ： O
@@ -32581,7 +32565,7 @@ l O
 腺 I-LAB
 激 I-LAB
 素 I-LAB
-  O
+
 5 O
 5 O
 . O
@@ -32756,12 +32740,12 @@ T I-RAY
 病 I-DIS
 5 I-DIS
 期 I-DIS
-  O
+
 肾 B-DIS
 性 I-DIS
 贫 I-DIS
 血 I-DIS
-  O
+
 2 O
 、 O
 原 B-DIS
@@ -32775,7 +32759,7 @@ T I-RAY
 很 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 高 B-DIS
 血 I-DIS
 压 I-DIS
@@ -32783,7 +32767,7 @@ T I-RAY
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 3 O
 、 O
 2 B-DIS
@@ -32791,7 +32775,7 @@ T I-RAY
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -32801,7 +32785,7 @@ T I-RAY
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -32810,7 +32794,7 @@ T I-RAY
 膜 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 4 O
 、 O
 甲 B-DIS
@@ -32820,7 +32804,7 @@ T I-RAY
 能 I-DIS
 减 I-DIS
 退 I-DIS
-  O
+
 5 O
 、 O
 心 B-DIS
@@ -32949,12 +32933,12 @@ T I-RAY
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 8 O
 . O
 
 8 O
-  O
+
 1 O
 0 O
 ^ O
@@ -32966,13 +32950,13 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 3 O
 . O
 
 1 O
 7 O
-  O
+
 1 O
 0 O
 ^ O
@@ -32987,10 +32971,10 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 9 O
 1 O
-  O
+
 g O
 / O
 L O
@@ -32999,11 +32983,11 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 2 O
 0 O
 0 O
-  O
+
 1 O
 0 O
 ^ O
@@ -33019,14 +33003,14 @@ L O
 百 O
 分 O
 比 O
-  O
+
 8 O
 6 O
 . O
 
 6 O
 1 O
-  O
+
 % O
 ， O
 
@@ -33035,14 +33019,14 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 1 O
 5 O
 . O
 
 2 O
 6 O
-  O
+
 m O
 m O
 o O
@@ -33052,14 +33036,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 3 O
 3 O
 1 O
 . O
 
 2 O
-  O
+
 μ O
 m O
 o O
@@ -33074,13 +33058,13 @@ l O
 2 O
 ： O
 钾 B-LAB
-  O
+
 4 O
 . O
 
 8 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -33089,14 +33073,14 @@ l O
 l O
 、 O
 钠 B-LAB
-  O
+
 1 O
 3 O
 7 O
 . O
 
 1 O
-  O
+
 m O
 m O
 o O
@@ -33104,14 +33088,14 @@ l O
 / O
 、 O
 氯 B-LAB
-  O
+
 1 O
 0 O
 7 O
 . O
 
 4 O
-  O
+
 m O
 m O
 o O
@@ -33363,7 +33347,7 @@ L O
 锐 I-MED
 3 I-MED
 0 I-MED
-  O
+
 1 O
 6 O
 u O
@@ -33709,7 +33693,7 @@ u O
 冠 B-DIS
 心 I-DIS
 病 I-DIS
-  O
+
 冠 B-DIS
 脉 I-DIS
 支 I-DIS
@@ -33762,7 +33746,7 @@ u O
 膀 I-DIS
 胱 I-DIS
 炎 I-DIS
-  O
+
 膀 B-DIS
 胱 I-DIS
 憩 I-DIS
@@ -33917,7 +33901,7 @@ u O
 ： O
 P B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
@@ -33929,7 +33913,7 @@ P B-LAB
 a I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 9 O
 3 O
 m O
@@ -33943,7 +33927,7 @@ a I-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 3 O
 1 O
 m O
@@ -34012,7 +33996,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 1 O
 4 O
 . O
@@ -34030,7 +34014,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 2 O
 . O
 
@@ -34051,10 +34035,10 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 9 O
 2 O
-  O
+
 g O
 / O
 L O
@@ -34063,7 +34047,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 9 O
 4 O
@@ -34083,14 +34067,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 9 O
 2 O
 . O
 
 7 O
 4 O
-  O
+
 % O
 ， O
 
@@ -34100,12 +34084,12 @@ P I-LAB
 ： O
 2 O
 2 O
-  O
+
 m O
 g O
 / O
 l O
-  O
+
 。 O
 
 肾 O
@@ -34127,13 +34111,13 @@ l O
 质 O
 ： O
 钾 B-LAB
-  O
+
 3 O
 . O
 
 4 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -34142,7 +34126,7 @@ l O
 l O
 、 O
 钠 B-LAB
-  O
+
 1 O
 2 O
 7 O
@@ -34157,7 +34141,7 @@ l O
 l O
 、 O
 氯 B-LAB
-  O
+
 8 O
 8 O
 . O
@@ -34466,7 +34450,7 @@ T I-RAY
 脑 I-DIS
 梗 I-DIS
 死 I-DIS
-  O
+
 2 O
 、 O
 脑 B-DIS
@@ -34608,7 +34592,7 @@ m O
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 2 O
 、 O
 脑 B-DIS
@@ -34618,7 +34602,7 @@ m O
 血 I-DIS
 不 I-DIS
 足 I-DIS
-  O
+
 3 O
 、 O
 腔 B-DIS
@@ -34627,7 +34611,7 @@ m O
 脑 I-DIS
 梗 I-DIS
 死 I-DIS
-  O
+
 4 O
 、 O
 2 B-DIS
@@ -34635,7 +34619,7 @@ m O
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 5 O
 、 O
 冠 B-DIS
@@ -34885,7 +34869,7 @@ g O
 葡 B-LAB
 萄 I-LAB
 糖 I-LAB
-  O
+
 4 O
 . O
 
@@ -34896,7 +34880,7 @@ o O
 l O
 / O
 l O
-  O
+
 ， O
 
 血 O
@@ -34907,7 +34891,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 6 O
 . O
 
@@ -34926,22 +34910,22 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 1 O
 3 O
-  O
+
 g O
 / O
 L O
-  O
+
 ↓ O
 、 O
 血 B-LAB
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 8 O
 1 O
@@ -34962,10 +34946,10 @@ C B-LAB
 应 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 < O
 1 O
-  O
+
 m O
 g O
 / O
@@ -34979,7 +34963,7 @@ l O
 ： O
 P B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
@@ -34991,7 +34975,7 @@ P B-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 2 O
 8 O
 m O
@@ -35003,7 +34987,7 @@ g O
 P B-LAB
 O I-LAB
 2 I-LAB
-  O
+
 1 O
 2 O
 6 O
@@ -35036,7 +35020,7 @@ L O
 碱 I-LAB
 剩 I-LAB
 余 I-LAB
-  O
+
 - O
 8 O
 m O
@@ -35154,11 +35138,11 @@ T I-RAY
 高 B-DIS
 血 I-DIS
 压 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 乳 B-DIS
 酸 I-DIS
 酸 I-DIS
@@ -35651,7 +35635,7 @@ T I-RAY
 性 I-DIS
 脱 I-DIS
 水 I-DIS
-  O
+
 2 O
 . O
 
@@ -35662,7 +35646,7 @@ T I-RAY
 能 I-DIS
 不 I-DIS
 全 I-DIS
-  O
+
 3 O
 . O
 
@@ -35671,9 +35655,9 @@ T I-RAY
 痴 I-DIS
 呆 I-DIS
 症 I-DIS
-  O
+
 4 O
-  O
+
 . O
 
 重 B-DIS
@@ -35824,7 +35808,7 @@ T I-RAY
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 1 O
 3 O
 . O
@@ -35846,14 +35830,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 6 O
 . O
 
 0 O
 4 O
-  O
+
 % O
 ， O
 
@@ -35867,13 +35851,13 @@ L O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 4 O
 9 O
 . O
 
 0 O
-  O
+
 U O
 / O
 L O
@@ -35882,14 +35866,14 @@ L O
 酸 I-LAB
 激 I-LAB
 酶 I-LAB
-  O
+
 2 O
 4 O
 7 O
 . O
 
 7 O
-  O
+
 U O
 / O
 L O
@@ -35899,14 +35883,14 @@ L O
 脱 I-LAB
 氢 I-LAB
 酶 I-LAB
-  O
+
 3 O
 4 O
 3 O
 . O
 
 3 O
-  O
+
 U O
 / O
 L O
@@ -35917,14 +35901,14 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 2 O
 7 O
 . O
 
 6 O
 2 O
-  O
+
 m O
 m O
 o O
@@ -35934,14 +35918,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 3 O
 0 O
 9 O
 . O
 
 1 O
-  O
+
 μ O
 m O
 o O
@@ -35951,14 +35935,14 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 5 O
 9 O
 2 O
 . O
 
 5 O
-  O
+
 μ O
 m O
 o O
@@ -35981,7 +35965,7 @@ l O
 蛋 I-LAB
 白 I-LAB
 T I-LAB
-  O
+
 1 O
 3 O
 0 O
@@ -35989,7 +35973,7 @@ T I-LAB
 
 7 O
 0 O
-  O
+
 p O
 g O
 / O
@@ -36003,14 +35987,14 @@ l O
 1 O
 ： O
 钠 B-LAB
-  O
+
 1 O
 6 O
 8 O
 . O
 
 7 O
-  O
+
 m O
 m O
 o O
@@ -36019,14 +36003,14 @@ l O
 l O
 、 O
 氯 B-LAB
-  O
+
 1 O
 2 O
 8 O
 . O
 
 0 O
-  O
+
 m O
 m O
 o O
@@ -36255,32 +36239,32 @@ T I-RAY
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 3 O
 . O
 
 3 O
-  O
+
 1 O
 0 O
 ^ O
 9 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 红 B-LAB
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 2 O
 . O
 
 7 O
 0 O
-  O
+
 1 O
 0 O
 ^ O
@@ -36288,7 +36272,7 @@ L O
 2 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 血 B-LAB
@@ -36297,31 +36281,31 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 9 O
 8 O
-  O
+
 g O
 / O
 L O
-  O
+
 ↓ O
 、 O
 血 B-LAB
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 3 O
 2 O
-  O
+
 1 O
 0 O
 ^ O
 9 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 淋 B-LAB
@@ -36331,20 +36315,20 @@ L O
 绝 I-LAB
 对 I-LAB
 值 I-LAB
-  O
+
 0 O
 . O
 
 8 O
 4 O
-  O
+
 1 O
 0 O
 ^ O
 9 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 红 B-LAB
@@ -36352,15 +36336,15 @@ L O
 胞 I-LAB
 压 I-LAB
 积 I-LAB
-  O
+
 2 O
 7 O
 . O
 
 7 O
-  O
+
 % O
-  O
+
 ↓ O
 、 O
 平 B-LAB
@@ -36370,17 +36354,17 @@ L O
 胞 I-LAB
 体 I-LAB
 积 I-LAB
-  O
+
 1 O
 0 O
 2 O
 . O
 
 6 O
-  O
+
 f O
 L O
-  O
+
 ↑ O
 、 O
 平 B-LAB
@@ -36393,16 +36377,16 @@ L O
 蛋 I-LAB
 白 I-LAB
 量 I-LAB
-  O
+
 3 O
 6 O
 . O
 
 3 O
-  O
+
 p O
 g O
-  O
+
 ↑ O
 、 O
 红 B-LAB
@@ -36414,16 +36398,16 @@ g O
 布 I-LAB
 宽 I-LAB
 度 I-LAB
-  O
+
 5 O
 6 O
 . O
 
 5 O
-  O
+
 f O
 l O
-  O
+
 ↑ O
 、 O
 红 B-LAB
@@ -36438,15 +36422,15 @@ l O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 1 O
 5 O
 . O
 
 4 O
-  O
+
 % O
-  O
+
 ↑ O
 ， O
 
@@ -36459,9 +36443,9 @@ C B-LAB
 应 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 5 O
-  O
+
 m O
 g O
 / O
@@ -36553,20 +36537,20 @@ l O
 胎 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 1 O
 6 O
 . O
 
 9 O
 0 O
-  O
+
 n O
 g O
 / O
 m O
 l O
-  O
+
 ↑ O
 ， O
 
@@ -36591,7 +36575,7 @@ l O
 原 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 、 O
@@ -36603,7 +36587,7 @@ l O
 体 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 ， O
@@ -36617,17 +36601,17 @@ l O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 8 O
 7 O
 . O
 
 5 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 、 O
 碱 B-LAB
@@ -36635,38 +36619,38 @@ L O
 磷 I-LAB
 酸 I-LAB
 酶 I-LAB
-  O
+
 1 O
 7 O
 2 O
 . O
 
 5 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 、 O
 总 B-LAB
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 4 O
 4 O
 . O
 
 7 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 直 B-LAB
@@ -36674,27 +36658,27 @@ l O
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 2 O
 8 O
 . O
 
 2 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 总 B-LAB
 胆 I-LAB
 汁 I-LAB
 酸 I-LAB
-  O
+
 1 O
 0 O
 6 O
@@ -36702,14 +36686,14 @@ l O
 
 8 O
 4 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 。 O
 
@@ -37069,7 +37053,7 @@ T I-RAY
 尿 B-DIS
 毒 I-DIS
 症 I-DIS
-  O
+
 肾 B-DIS
 性 I-DIS
 贫 I-DIS
@@ -37156,7 +37140,7 @@ T I-RAY
 血 B-LAB
 肌 I-LAB
 酐 I-LAB
-  O
+
 6 O
 3 O
 8 O
@@ -37171,7 +37155,7 @@ L O
 尿 B-LAB
 素 I-LAB
 氮 I-LAB
-  O
+
 2 O
 2 O
 . O
@@ -37194,7 +37178,7 @@ L O
 红 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 8 O
 9 O
 g O
@@ -37208,7 +37192,7 @@ L O
 ： O
 血 B-LAB
 钾 I-LAB
-  O
+
 4 O
 . O
 
@@ -37526,13 +37510,13 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 9 O
 . O
 
 2 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -37542,14 +37526,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 5 O
 4 O
 0 O
 . O
 
 5 O
-  O
+
 μ O
 m O
 o O
@@ -37559,14 +37543,14 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 3 O
 1 O
 3 O
 . O
 
 4 O
-  O
+
 μ O
 m O
 o O
@@ -37580,13 +37564,13 @@ l O
 质 O
 ： O
 钾 B-LAB
-  O
+
 4 O
 . O
 
 1 O
 5 O
-  O
+
 m O
 m O
 o O
@@ -37595,14 +37579,14 @@ l O
 l O
 、 O
 钠 B-LAB
-  O
+
 1 O
 4 O
 0 O
 . O
 
 3 O
-  O
+
 m O
 m O
 o O
@@ -37611,14 +37595,14 @@ l O
 l O
 、 O
 氯 B-LAB
-  O
+
 1 O
 0 O
 4 O
 . O
 
 1 O
-  O
+
 m O
 m O
 o O
@@ -37630,13 +37614,13 @@ l O
 氧 I-LAB
 化 I-LAB
 碳 I-LAB
-  O
+
 2 O
 2 O
 . O
 
 6 O
-  O
+
 m O
 m O
 o O
@@ -37645,13 +37629,13 @@ l O
 l O
 、 O
 钙 B-LAB
-  O
+
 2 O
 . O
 
 1 O
 1 O
-  O
+
 m O
 m O
 o O
@@ -37660,13 +37644,13 @@ l O
 l O
 、 O
 磷 B-LAB
-  O
+
 1 O
 . O
 
 1 O
 3 O
-  O
+
 m O
 m O
 o O
@@ -37683,7 +37667,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 4 O
 . O
 
@@ -37700,7 +37684,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 3 O
 . O
 
@@ -37721,11 +37705,11 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 2 O
 1 O
-  O
+
 g O
 / O
 L O
@@ -37734,7 +37718,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 0 O
 1 O
@@ -37754,14 +37738,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 2 O
 . O
 
 9 O
 1 O
-  O
+
 % O
 ， O
 
@@ -38035,13 +38019,13 @@ g O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 2 O
 7 O
 . O
 
 7 O
-  O
+
 U O
 / O
 L O
@@ -38050,14 +38034,14 @@ L O
 酸 I-LAB
 激 I-LAB
 酶 I-LAB
-  O
+
 1 O
 7 O
 5 O
 . O
 
 9 O
-  O
+
 U O
 / O
 L O
@@ -38069,10 +38053,10 @@ L O
 同 I-LAB
 工 I-LAB
 酶 I-LAB
-  O
+
 2 O
 2 O
-  O
+
 U O
 / O
 L O
@@ -38082,14 +38066,14 @@ L O
 脱 I-LAB
 氢 I-LAB
 酶 I-LAB
-  O
+
 2 O
 8 O
 7 O
 . O
 
 8 O
-  O
+
 U O
 / O
 L O
@@ -38100,14 +38084,14 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 2 O
 7 O
 . O
 
 4 O
 8 O
-  O
+
 m O
 m O
 o O
@@ -38117,13 +38101,13 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 9 O
 2 O
 . O
 
 4 O
-  O
+
 μ O
 m O
 o O
@@ -38133,14 +38117,14 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 3 O
 4 O
 0 O
 . O
 
 8 O
-  O
+
 μ O
 m O
 o O
@@ -38160,13 +38144,13 @@ l O
 原 I-LAB
 时 I-LAB
 间 I-LAB
-  O
+
 1 O
 4 O
 . O
 
 4 O
-  O
+
 秒 O
 、 O
 国 B-LAB
@@ -38176,7 +38160,7 @@ l O
 化 I-LAB
 比 I-LAB
 值 I-LAB
-  O
+
 1 O
 . O
 
@@ -38193,13 +38177,13 @@ l O
 原 I-LAB
 时 I-LAB
 间 I-LAB
-  O
+
 2 O
 2 O
 . O
 
 1 O
-  O
+
 秒 O
 、 O
 纤 B-LAB
@@ -38207,13 +38191,13 @@ l O
 蛋 I-LAB
 白 I-LAB
 原 I-LAB
-  O
+
 2 O
 . O
 
 5 O
 0 O
-  O
+
 g O
 / O
 L O
@@ -38223,13 +38207,13 @@ L O
 酶 I-LAB
 时 I-LAB
 间 I-LAB
-  O
+
 1 O
 5 O
 . O
 
 3 O
-  O
+
 秒 O
 ， O
 
@@ -38247,14 +38231,14 @@ L O
 蛋 I-LAB
 白 I-LAB
 T O
-  O
+
 7 O
 7 O
 . O
 
 8 O
 9 O
-  O
+
 p O
 g O
 / O
@@ -38270,7 +38254,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 I-LAB
-  O
+
 9 O
 . O
 
@@ -38287,7 +38271,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 I-LAB
-  O
+
 2 O
 . O
 
@@ -38308,10 +38292,10 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 8 O
 2 O
-  O
+
 g O
 / O
 L O
@@ -38320,7 +38304,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 I-LAB
-  O
+
 1 O
 3 O
 0 O
@@ -38340,14 +38324,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 8 O
 . O
 
 2 O
 4 O
-  O
+
 % O
 、 O
 红 B-LAB
@@ -38355,13 +38339,13 @@ L O
 胞 I-LAB
 压 I-LAB
 积 I-LAB
-  O
+
 2 O
 5 O
 . O
 
 9 O
-  O
+
 % O
 ， O
 
@@ -38403,7 +38387,7 @@ L O
 力 I-DIS
 衰 I-DIS
 竭 I-DIS
-  O
+
 房 B-DIS
 颤 I-DIS
 3 O
@@ -38500,10 +38484,10 @@ g O
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 心 B-DIS
 衰 I-DIS
-  O
+
 房 B-DIS
 颤 I-DIS
 ” O
@@ -38546,13 +38530,13 @@ g O
 肌 I-DIS
 病 I-DIS
 型 I-DIS
-  O
+
 心 B-DIS
 功 I-DIS
 能 I-DIS
 不 I-DIS
 全 I-DIS
-  O
+
 心 B-DIS
 功 I-DIS
 能 I-DIS
@@ -38560,12 +38544,12 @@ I I-DIS
 I I-DIS
 I I-DIS
 级 I-DIS
-  O
+
 心 B-DIS
 律 I-DIS
 失 I-DIS
 常 I-DIS
-  O
+
 心 B-DIS
 房 I-DIS
 纤 I-DIS
@@ -38580,7 +38564,7 @@ I I-DIS
 导 I-DIS
 阻 I-DIS
 滞 I-DIS
-  O
+
 2 O
 . O
 
@@ -38596,7 +38580,7 @@ I I-DIS
 极 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 3 O
 . O
 
@@ -38604,7 +38588,7 @@ I I-DIS
 部 I-DIS
 感 I-DIS
 染 I-DIS
-  O
+
 4 O
 . O
 
@@ -39119,10 +39103,10 @@ g O
 碳 I-LAB
 总 I-LAB
 量 I-LAB
-  O
+
 3 O
 8 O
-  O
+
 m O
 m O
 o O
@@ -39133,7 +39117,7 @@ l O
 酸 B-LAB
 碱 I-LAB
 度 I-LAB
-  O
+
 7 O
 . O
 
@@ -39147,10 +39131,10 @@ l O
 碳 I-LAB
 分 I-LAB
 压 I-LAB
-  O
+
 6 O
 5 O
-  O
+
 m O
 m O
 H O
@@ -39159,11 +39143,11 @@ g O
 氧 B-LAB
 分 I-LAB
 压 I-LAB
-  O
+
 2 O
 3 O
 1 O
-  O
+
 m O
 m O
 H O
@@ -39173,13 +39157,13 @@ g O
 酸 I-LAB
 氢 I-LAB
 根 I-LAB
-  O
+
 3 O
 5 O
 . O
 
 9 O
-  O
+
 m O
 m O
 o O
@@ -39193,14 +39177,14 @@ l O
 酸 I-LAB
 氢 I-LAB
 根 I-LAB
-  O
+
 3 O
 0 O
 . O
 
 7 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -39213,13 +39197,13 @@ l O
 碱 I-LAB
 剩 I-LAB
 余 I-LAB
-  O
+
 7 O
 . O
 
 3 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -39232,7 +39216,7 @@ l O
 饱 I-LAB
 和 I-LAB
 度 I-LAB
-  O
+
 1 O
 0 O
 0 O
@@ -39240,7 +39224,7 @@ l O
 
 0 O
 0 O
-  O
+
 % O
 ； O
 血 O
@@ -39251,12 +39235,12 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 8 O
 . O
 
 7 O
-  O
+
 1 O
 0 O
 ^ O
@@ -39268,13 +39252,13 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 5 O
 . O
 
 3 O
 4 O
-  O
+
 1 O
 0 O
 ^ O
@@ -39289,11 +39273,11 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 4 O
 8 O
-  O
+
 g O
 / O
 L O
@@ -39302,11 +39286,11 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 9 O
 1 O
-  O
+
 1 O
 0 O
 ^ O
@@ -39322,14 +39306,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 2 O
 . O
 
 8 O
 1 O
-  O
+
 % O
 ； O
 肾 O
@@ -39337,13 +39321,13 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 6 O
 . O
 
 1 O
 1 O
-  O
+
 m O
 m O
 o O
@@ -39353,13 +39337,13 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 5 O
 8 O
 . O
 
 0 O
-  O
+
 μ O
 m O
 o O
@@ -39369,14 +39353,14 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 4 O
 0 O
 6 O
 . O
 
 8 O
-  O
+
 μ O
 m O
 o O
@@ -39390,13 +39374,13 @@ l O
 1 O
 ： O
 钾 B-LAB
-  O
+
 4 O
 . O
 
 4 O
 5 O
-  O
+
 m O
 m O
 o O
@@ -39405,14 +39389,14 @@ l O
 l O
 、 O
 钠 B-LAB
-  O
+
 1 O
 4 O
 2 O
 . O
 
 7 O
-  O
+
 m O
 m O
 o O
@@ -39420,14 +39404,14 @@ l O
 / O
 、 O
 氯 B-LAB
-  O
+
 1 O
 0 O
 1 O
 . O
 
 0 O
-  O
+
 m O
 m O
 o O
@@ -39440,10 +39424,10 @@ C B-LAB
 应 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 < O
 1 O
-  O
+
 m O
 g O
 / O
@@ -39642,11 +39626,11 @@ l O
 血 O
 常 O
 规 O
-  O
+
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 8 O
 . O
 
@@ -39663,7 +39647,7 @@ L O
 R B-LAB
 B I-LAB
 C I-LAB
-  O
+
 3 O
 . O
 
@@ -39681,7 +39665,7 @@ L O
 B B-LAB
 N I-LAB
 P I-LAB
-  O
+
 8 O
 7 O
 5 O
@@ -40186,7 +40170,7 @@ I I-RAY
 B I-LAB
 1 I-LAB
 2 I-LAB
-  O
+
 2 O
 2 O
 0 O
@@ -40222,7 +40206,7 @@ l O
 血 B-LAB
 清 I-LAB
 铁 I-LAB
-  O
+
 3 O
 . O
 
@@ -40233,13 +40217,13 @@ o O
 l O
 / O
 L O
-  O
+
 总 B-LAB
 铁 I-LAB
 结 I-LAB
 合 I-LAB
 力 I-LAB
-  O
+
 4 O
 7 O
 . O
@@ -40724,7 +40708,7 @@ F O
 E O
 V O
 1 O
-  O
+
 4 O
 1 O
 . O
@@ -40872,12 +40856,12 @@ C O
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 心 B-DIS
 律 I-DIS
 失 I-DIS
 常 I-DIS
-  O
+
 心 B-DIS
 功 I-DIS
 能 I-DIS
@@ -41344,7 +41328,7 @@ D I-DIS
 . O
 
 1 O
-  O
+
 % O
 。 O
 
@@ -41355,13 +41339,13 @@ D I-DIS
 油 I-LAB
 三 I-LAB
 酯 I-LAB
-  O
+
 3 O
 . O
 
 7 O
 4 O
-  O
+
 m O
 m O
 o O
@@ -41373,13 +41357,13 @@ l O
 胆 I-LAB
 固 I-LAB
 醇 I-LAB
-  O
+
 5 O
 . O
 
 8 O
 9 O
-  O
+
 m O
 m O
 o O
@@ -41396,13 +41380,13 @@ l O
 胆 I-LAB
 固 I-LAB
 醇 I-LAB
-  O
+
 3 O
 . O
 
 3 O
 9 O
-  O
+
 m O
 m O
 o O
@@ -41685,7 +41669,7 @@ A I-RAY
 囊 I-DIS
 结 I-DIS
 石 I-DIS
-  O
+
 胆 B-DIS
 囊 I-DIS
 肿 I-DIS
@@ -44032,7 +44016,7 @@ u O
 P B-LAB
 L I-LAB
 T I-LAB
-  O
+
 6 O
 3 O
 × O
@@ -44044,7 +44028,7 @@ L O
 、 O
 H B-LAB
 B I-LAB
-  O
+
 6 O
 3 O
 g O
@@ -44107,7 +44091,7 @@ U O
 泼 I-MED
 尼 I-MED
 龙 I-MED
-  O
+
 2 O
 片 O
 / O
@@ -44142,11 +44126,11 @@ U O
 能 O
 异 O
 常 O
-  O
+
 B B-LAB
 U I-LAB
 N I-LAB
-  O
+
 1 O
 9 O
 . O
@@ -44158,12 +44142,12 @@ o O
 l O
 / O
 L O
-  O
+
 C B-LAB
 R I-LAB
 E I-LAB
 A I-LAB
-  O
+
 2 O
 2 O
 3 O
@@ -44599,11 +44583,11 @@ L O
 血 O
 常 O
 规 O
-  O
+
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 8 O
 . O
 
@@ -44615,10 +44599,10 @@ x O
 9 O
 / O
 L O
-  O
+
 H B-LAB
 B I-LAB
-  O
+
 1 O
 1 O
 7 O
@@ -44630,12 +44614,12 @@ L O
 血 O
 试 O
 验 O
-  O
+
 A B-LAB
 P I-LAB
 T I-LAB
 T I-LAB
-  O
+
 2 O
 1 O
 . O
@@ -44649,7 +44633,7 @@ T I-LAB
 钙 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 2 O
 3 O
 . O
@@ -44665,9 +44649,9 @@ l O
 电 O
 解 O
 质 O
-  O
+
 K B-LAB
-  O
+
 3 O
 . O
 
@@ -44682,11 +44666,11 @@ L O
 肾 O
 功 O
 能 O
-  O
+
 B B-LAB
 U I-LAB
 N I-LAB
-  O
+
 1 O
 1 O
 . O
@@ -44699,12 +44683,12 @@ o O
 l O
 / O
 L O
-  O
+
 C B-LAB
 R I-LAB
 E I-LAB
 A I-LAB
-  O
+
 1 O
 5 O
 2 O
@@ -44722,20 +44706,20 @@ L O
 气 O
 分 O
 析 O
-  O
+
 P B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
 4 O
 7 O
-  O
+
 P B-LAB
 O I-LAB
 2 I-LAB
-  O
+
 1 O
 2 O
 2 O
@@ -44743,12 +44727,12 @@ m O
 m O
 H O
 g O
-  O
+
 P B-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 3 O
 6 O
 m O
@@ -45092,7 +45076,7 @@ T I-RAY
 ： O
 P B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
@@ -45104,7 +45088,7 @@ P B-LAB
 a I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 5 O
 3 O
 m O
@@ -45118,7 +45102,7 @@ a I-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 4 O
 3 O
 m O
@@ -45158,7 +45142,7 @@ L O
 白 B-LAB
 球 I-LAB
 比 I-LAB
-  O
+
 1 O
 . O
 
@@ -45170,14 +45154,14 @@ L O
 质 O
 ： O
 氯 B-LAB
-  O
+
 1 O
 1 O
 0 O
 . O
 
 6 O
-  O
+
 m O
 m O
 o O
@@ -45194,7 +45178,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 9 O
 . O
 
@@ -45211,7 +45195,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 4 O
 . O
 
@@ -45232,11 +45216,11 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 3 O
 1 O
-  O
+
 g O
 / O
 L O
@@ -45245,7 +45229,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 1 O
 4 O
 0 O
@@ -45265,14 +45249,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 7 O
 7 O
 . O
 
 6 O
 1 O
-  O
+
 % O
 ， O
 
@@ -45286,13 +45270,13 @@ L O
 蛋 I-LAB
 白 I-LAB
 原 I-LAB
-  O
+
 4 O
 . O
 
 6 O
 2 O
-  O
+
 g O
 / O
 L O
@@ -45312,14 +45296,14 @@ L O
 蛋 I-LAB
 白 I-LAB
 T I-LAB
-  O
+
 3 O
 3 O
 . O
 
 1 O
 0 O
-  O
+
 p O
 g O
 / O
@@ -45333,7 +45317,7 @@ P I-LAB
 ： O
 6 O
 9 O
-  O
+
 m O
 g O
 / O
@@ -45351,7 +45335,7 @@ _ I-LAB
 
 0 O
 7 O
-  O
+
 μ O
 g O
 / O
@@ -45580,7 +45564,7 @@ I I-RAY
 ： O
 P B-LAB
 H I-LAB
-  O
+
 7 O
 . O
 
@@ -45592,7 +45576,7 @@ P B-LAB
 a I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 5 O
 2 O
 m O
@@ -45606,7 +45590,7 @@ a I-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 3 O
 6 O
 m O
@@ -45835,7 +45819,7 @@ I B-DIS
 常 O
 规 O
 ： O
-  O
+
 H B-LAB
 b I-LAB
 ： O
@@ -45935,7 +45919,7 @@ l O
 腺 I-LAB
 激 I-LAB
 素 I-LAB
-  O
+
 5 O
 5 O
 . O
@@ -46527,7 +46511,7 @@ L O
 锐 I-MED
 3 I-MED
 0 I-MED
-  O
+
 1 O
 6 O
 u O
@@ -46635,7 +46619,7 @@ u O
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -46645,7 +46629,7 @@ u O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -46811,14 +46795,14 @@ u O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 1 O
 6 O
 . O
 
 0 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -46828,14 +46812,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 1 O
 4 O
 1 O
 . O
 
 7 O
-  O
+
 μ O
 m O
 o O
@@ -46865,7 +46849,7 @@ l O
 极 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 高 B-DIS
 血 I-DIS
 压 I-DIS
@@ -46904,14 +46888,14 @@ l O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 1 O
 9 O
 . O
 
 7 O
 9 O
-  O
+
 m O
 m O
 o O
@@ -46921,14 +46905,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 2 O
 2 O
 5 O
 . O
 
 2 O
-  O
+
 μ O
 m O
 o O
@@ -46953,7 +46937,7 @@ l O
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -46963,19 +46947,19 @@ l O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
 眼 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
 肾 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -46985,7 +46969,7 @@ l O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 2 O
 . O
 
@@ -47001,7 +46985,7 @@ l O
 很 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 高 B-DIS
 血 I-DIS
 压 I-DIS
@@ -47009,7 +46993,7 @@ l O
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 3 O
 . O
 
@@ -47019,7 +47003,7 @@ l O
 质 I-DIS
 疏 I-DIS
 松 I-DIS
-  O
+
 4 O
 、 O
 甲 B-DIS
@@ -47029,7 +47013,7 @@ l O
 能 I-DIS
 减 I-DIS
 退 I-DIS
-  O
+
 5 O
 、 O
 冠 B-DIS
@@ -47718,7 +47702,7 @@ l O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 2 O
 . O
 
@@ -47730,20 +47714,20 @@ l O
 9 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 红 B-LAB
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 3 O
 . O
 
 4 O
 9 O
-  O
+
 * O
 1 O
 0 O
@@ -47752,7 +47736,7 @@ L O
 2 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 血 B-LAB
@@ -47761,25 +47745,25 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 0 O
 9 O
-  O
+
 g O
 / O
 L O
-  O
+
 ↓ O
 、 O
 血 B-LAB
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 9 O
 7 O
-  O
+
 * O
 1 O
 0 O
@@ -47787,7 +47771,7 @@ L O
 9 O
 / O
 L O
-  O
+
 ↓ O
 、 O
 中 B-LAB
@@ -47798,16 +47782,16 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 8 O
 7 O
 . O
 
 0 O
 1 O
-  O
+
 % O
-  O
+
 ↑ O
 ， O
 
@@ -47818,12 +47802,12 @@ L O
 白 B-LAB
 球 I-LAB
 比 I-LAB
-  O
+
 1 O
 . O
 
 2 O
-  O
+
 ↓ O
 、 O
 谷 B-LAB
@@ -47831,18 +47815,18 @@ L O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 3 O
 3 O
 4 O
 . O
 
 0 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 、 O
 谷 B-LAB
@@ -47851,38 +47835,38 @@ L O
 转 I-LAB
 肽 I-LAB
 酶 I-LAB
-  O
+
 5 O
 3 O
 8 O
 . O
 
 2 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 、 O
 总 B-LAB
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 6 O
 7 O
 . O
 
 6 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 直 B-LAB
@@ -47890,20 +47874,20 @@ l O
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 4 O
 8 O
 . O
 
 8 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 间 B-LAB
@@ -47911,21 +47895,21 @@ l O
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 1 O
 8 O
 . O
 
 8 O
 0 O
-  O
+
 μ O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 。 O
 
@@ -48280,7 +48264,7 @@ g O
 天 O
 1 O
 次 O
-  O
+
 每 O
 次 O
 1 O
@@ -48305,7 +48289,7 @@ g O
 天 O
 1 O
 次 O
-  O
+
 每 O
 次 O
 半 O
@@ -48315,12 +48299,12 @@ g O
 伐 I-MED
 他 I-MED
 汀 I-MED
-  O
+
 每 O
 晚 O
 1 O
 次 O
-  O
+
 每 O
 次 O
 1 O
@@ -48337,12 +48321,12 @@ g O
 / O
 片 O
 ） O
-  O
+
 每 O
 日 O
 1 O
 次 O
-  O
+
 每 O
 次 O
 1 O
@@ -48359,12 +48343,12 @@ g O
 / O
 片 O
 ） O
-  O
+
 每 O
 日 O
 1 O
 次 O
-  O
+
 每 O
 次 O
 1 O
@@ -48772,7 +48756,7 @@ g O
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -48782,7 +48766,7 @@ g O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -48948,14 +48932,14 @@ g O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 1 O
 6 O
 . O
 
 0 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -48965,14 +48949,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 1 O
 4 O
 1 O
 . O
 
 7 O
-  O
+
 μ O
 m O
 o O
@@ -49002,7 +48986,7 @@ l O
 极 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 高 B-DIS
 血 I-DIS
 压 I-DIS
@@ -49041,14 +49025,14 @@ l O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 1 O
 9 O
 . O
 
 7 O
 9 O
-  O
+
 m O
 m O
 o O
@@ -49058,14 +49042,14 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 2 O
 2 O
 5 O
 . O
 
 2 O
-  O
+
 μ O
 m O
 o O
@@ -49090,7 +49074,7 @@ l O
 糖 I-DIS
 尿 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -49100,19 +49084,19 @@ l O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
 眼 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
 肾 I-DIS
 病 I-DIS
-  O
+
 糖 B-DIS
 尿 I-DIS
 病 I-DIS
@@ -49122,7 +49106,7 @@ l O
 经 I-DIS
 病 I-DIS
 变 I-DIS
-  O
+
 2 O
 . O
 
@@ -49138,7 +49122,7 @@ l O
 很 I-DIS
 高 I-DIS
 危 I-DIS
-  O
+
 高 B-DIS
 血 I-DIS
 压 I-DIS
@@ -49146,7 +49130,7 @@ l O
 心 I-DIS
 脏 I-DIS
 病 I-DIS
-  O
+
 3 O
 . O
 
@@ -49156,7 +49140,7 @@ l O
 质 I-DIS
 疏 I-DIS
 松 I-DIS
-  O
+
 4 O
 、 O
 甲 B-DIS
@@ -49166,7 +49150,7 @@ l O
 能 I-DIS
 减 I-DIS
 退 I-DIS
-  O
+
 5 O
 、 O
 冠 B-DIS
@@ -49555,40 +49539,40 @@ g O
 油 I-LAB
 三 I-LAB
 酯 I-LAB
-  O
+
 3 O
 . O
 
 7 O
 2 O
-  O
+
 m O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 总 B-LAB
 胆 I-LAB
 固 I-LAB
 醇 I-LAB
-  O
+
 6 O
 . O
 
 2 O
 6 O
-  O
+
 m O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 、 O
 载 B-LAB
@@ -49596,17 +49580,17 @@ l O
 蛋 I-LAB
 白 I-LAB
 B I-LAB
-  O
+
 1 O
 . O
 
 4 O
 8 O
-  O
+
 g O
 / O
 l O
-  O
+
 ↑ O
 ， O
 
@@ -49621,20 +49605,20 @@ l O
 葡 B-LAB
 萄 I-LAB
 糖 I-LAB
-  O
+
 9 O
 . O
 
 2 O
 7 O
-  O
+
 m O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↑ O
 ， O
 
@@ -49647,13 +49631,13 @@ l O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 3 O
 4 O
 . O
 
 3 O
-  O
+
 U O
 / O
 L O
@@ -49663,13 +49647,13 @@ L O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 2 O
 0 O
 . O
 
 9 O
-  O
+
 U O
 / O
 L O
@@ -49680,18 +49664,18 @@ L O
 转 I-LAB
 肽 I-LAB
 酶 I-LAB
-  O
+
 1 O
 1 O
 2 O
 . O
 
 6 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 ， O
 
@@ -49703,7 +49687,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 4 O
 . O
 
@@ -49720,7 +49704,7 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 5 O
 . O
 
@@ -49741,11 +49725,11 @@ L O
 白 I-LAB
 浓 I-LAB
 度 I-LAB
-  O
+
 1 O
 6 O
 0 O
-  O
+
 g O
 / O
 L O
@@ -49754,7 +49738,7 @@ L O
 小 I-LAB
 板 I-LAB
 数 O
-  O
+
 2 O
 5 O
 6 O
@@ -49774,14 +49758,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 5 O
 7 O
 . O
 
 8 O
 0 O
-  O
+
 % O
 、 O
 淋 B-LAB
@@ -49791,14 +49775,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 3 O
 5 O
 . O
 
 9 O
 0 O
-  O
+
 % O
 ， O
 
@@ -49864,12 +49848,12 @@ L O
 红 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 8 O
 . O
 
 7 O
-  O
+
 % O
 ， O
 
@@ -49884,14 +49868,14 @@ L O
 葡 B-LAB
 萄 I-LAB
 糖 I-LAB
-  O
+
 1 O
 3 O
 . O
 
 9 O
 0 O
-  O
+
 m O
 m O
 o O
@@ -49915,11 +49899,11 @@ l O
 白 I-LAB
 蛋 I-LAB
 白 I-LAB
-  O
+
 4 O
 5 O
 1 O
-  O
+
 m O
 g O
 / O
@@ -49932,24 +49916,24 @@ L O
 ： O
 酮 B-LAB
 体 I-LAB
-  O
+
 - O
 、 O
 尿 B-LAB
 胆 I-LAB
 原 I-LAB
-  O
+
 + O
 、 O
 蛋 B-LAB
 白 I-LAB
-  O
+
 + O
 、 O
 葡 B-LAB
 萄 I-LAB
 糖 I-LAB
-  O
+
 + O
 + O
 + O
@@ -50560,7 +50544,7 @@ Z O
 型 I-DIS
 肺 I-DIS
 癌 I-DIS
-  O
+
 2 O
 、 O
 转 B-DIS
@@ -50569,7 +50553,7 @@ Z O
 淋 I-DIS
 巴 I-DIS
 癌 I-DIS
-  O
+
 3 O
 、 O
 慢 B-DIS
@@ -50584,12 +50568,12 @@ Z O
 性 I-DIS
 加 I-DIS
 重 I-DIS
-  O
+
 4 O
 、 O
 矽 B-DIS
 肺 I-DIS
-  O
+
 5 O
 、 O
 陈 B-DIS
@@ -50598,7 +50582,7 @@ Z O
 肺 I-DIS
 结 I-DIS
 核 I-DIS
-  O
+
 6 O
 、 O
 压 B-DIS
@@ -52296,7 +52280,7 @@ I I-RAY
 原 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 ， O
@@ -52309,7 +52293,7 @@ I I-RAY
 体 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 。 O
@@ -53162,12 +53146,12 @@ L O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 6 O
 . O
 
 8 O
-  O
+
 1 O
 0 O
 ^ O
@@ -53183,14 +53167,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 7 O
 8 O
 . O
 
 3 O
 4 O
-  O
+
 % O
 ， O
 
@@ -53204,13 +53188,13 @@ L O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 4 O
 4 O
 . O
 
 8 O
-  O
+
 U O
 / O
 L O
@@ -53219,14 +53203,14 @@ L O
 酸 I-LAB
 激 I-LAB
 酶 I-LAB
-  O
+
 1 O
 9 O
 8 O
 . O
 
 7 O
-  O
+
 U O
 / O
 L O
@@ -53238,10 +53222,10 @@ L O
 同 I-LAB
 工 I-LAB
 酶 I-LAB
-  O
+
 1 O
 4 O
-  O
+
 U O
 / O
 L O
@@ -53251,14 +53235,14 @@ L O
 脱 I-LAB
 氢 I-LAB
 酶 I-LAB
-  O
+
 2 O
 4 O
 1 O
 . O
 
 6 O
-  O
+
 U O
 / O
 L O
@@ -53269,13 +53253,13 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 4 O
 . O
 
 4 O
 8 O
-  O
+
 m O
 m O
 o O
@@ -53285,13 +53269,13 @@ L O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 4 O
 3 O
 . O
 
 0 O
-  O
+
 μ O
 m O
 o O
@@ -53307,14 +53291,14 @@ l O
 蛋 I-LAB
 白 I-LAB
 T I-LAB
-  O
+
 1 O
 1 O
 . O
 
 9 O
 3 O
-  O
+
 p O
 g O
 / O
@@ -53328,13 +53312,13 @@ l O
 1 O
 ： O
 钾 B-LAB
-  O
+
 3 O
 . O
 
 7 O
 7 O
-  O
+
 m O
 m O
 o O
@@ -53348,13 +53332,13 @@ _ I-LAB
 2 I-LAB
 聚 I-LAB
 体 I-LAB
-  O
+
 0 O
 . O
 
 5 O
 4 O
-  O
+
 μ O
 g O
 / O
@@ -53372,7 +53356,7 @@ l O
 胺 B-MED
 碘 I-MED
 酮 I-MED
-  O
+
 1 O
 5 O
 0 O
@@ -54010,7 +53994,6 @@ C I-DIS
 3 I-DIS
 8 I-DIS
 . I-DIS
-
 2 I-DIS
 8 I-DIS
 % I-DIS
@@ -54266,7 +54249,7 @@ C I-DIS
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 1 O
 1 O
 . O
@@ -54285,7 +54268,7 @@ L O
 R B-LAB
 B I-LAB
 C I-LAB
-  O
+
 5 O
 . O
 
@@ -54304,7 +54287,7 @@ L O
 H B-LAB
 G I-LAB
 B I-LAB
-  O
+
 1 O
 4 O
 4 O
@@ -54314,7 +54297,7 @@ L O
 ， O
 
 N B-LAB
-  O
+
 7 O
 1 O
 . O
@@ -54324,7 +54307,7 @@ N B-LAB
 ， O
 
 L B-LAB
-  O
+
 2 O
 6 O
 . O
@@ -54391,7 +54374,7 @@ L B-LAB
 ， O
 
 T O
-  O
+
 3 O
 7 O
 . O
@@ -54414,7 +54397,7 @@ T O
 、 O
 N O
 S O
-  O
+
 1 O
 6 O
 m O
@@ -54475,13 +54458,13 @@ g O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 1 O
 7 O
 . O
 
 2 O
-  O
+
 U O
 / O
 L O
@@ -54490,13 +54473,13 @@ L O
 酸 I-LAB
 激 I-LAB
 酶 I-LAB
-  O
+
 4 O
 1 O
 . O
 
 5 O
-  O
+
 U O
 / O
 L O
@@ -54508,9 +54491,9 @@ L O
 同 I-LAB
 工 I-LAB
 酶 I-LAB
-  O
+
 8 O
-  O
+
 U O
 / O
 L O
@@ -54520,18 +54503,18 @@ L O
 脱 I-LAB
 氢 I-LAB
 酶 I-LAB
-  O
+
 2 O
 4 O
 5 O
 . O
 
 7 O
-  O
+
 U O
 / O
 L O
-  O
+
 ↑ O
 ， O
 
@@ -54540,31 +54523,31 @@ L O
 ： O
 尿 B-LAB
 素 I-LAB
-  O
+
 8 O
 . O
 
 2 O
 8 O
-  O
+
 m O
 m O
 o O
 l O
 / O
 L O
-  O
+
 ↑ O
 、 O
 肌 B-LAB
 酐 I-LAB
-  O
+
 6 O
 6 O
 . O
 
 2 O
-  O
+
 μ O
 m O
 o O
@@ -54574,14 +54557,14 @@ l O
 、 O
 尿 B-LAB
 酸 I-LAB
-  O
+
 2 O
 5 O
 1 O
 . O
 
 6 O
-  O
+
 μ O
 m O
 o O
@@ -54603,13 +54586,13 @@ l O
 
 7 O
 5 O
-  O
+
 p O
 g O
 / O
 m O
 l O
-  O
+
 ↑ O
 ， O
 
@@ -54618,31 +54601,31 @@ l O
 质 O
 ： O
 钾 B-LAB
-  O
+
 3 O
 . O
 
 3 O
 9 O
-  O
+
 m O
 m O
 o O
 l O
 / O
 l O
-  O
+
 ↓ O
 、 O
 钠 B-LAB
-  O
+
 1 O
 4 O
 5 O
 . O
 
 2 O
-  O
+
 m O
 m O
 o O
@@ -54651,14 +54634,14 @@ l O
 l O
 、 O
 氯 B-LAB
-  O
+
 1 O
 0 O
 7 O
 . O
 
 6 O
-  O
+
 m O
 m O
 o O
@@ -55057,7 +55040,7 @@ H I-LAB
 P B-LAB
 O I-LAB
 2 I-LAB
-  O
+
 1 O
 0 O
 4 O
@@ -55071,7 +55054,7 @@ P B-LAB
 C I-LAB
 O I-LAB
 2 I-LAB
-  O
+
 3 O
 5 O
 m O
@@ -55088,7 +55071,7 @@ g O
 细 I-LAB
 胞 I-LAB
 数 O
-  O
+
 6 O
 . O
 
@@ -55109,14 +55092,14 @@ L O
 百 I-LAB
 分 I-LAB
 比 I-LAB
-  O
+
 7 O
 8 O
 . O
 
 5 O
 1 O
-  O
+
 % O
 ， O
 
@@ -55130,13 +55113,13 @@ L O
 转 I-LAB
 氨 I-LAB
 酶 I-LAB
-  O
+
 3 O
 8 O
 . O
 
 0 O
-  O
+
 U O
 / O
 L O
@@ -55148,10 +55131,10 @@ L O
 同 I-LAB
 工 I-LAB
 酶 I-LAB
-  O
+
 1 O
 0 O
-  O
+
 U O
 / O
 L O
@@ -55161,14 +55144,14 @@ L O
 脱 I-LAB
 氢 I-LAB
 酶 I-LAB
-  O
+
 2 O
 7 O
 9 O
 . O
 
 5 O
-  O
+
 U O
 / O
 L O
@@ -55179,14 +55162,14 @@ L O
 ： O
 肌 B-LAB
 酐 I-LAB
-  O
+
 1 O
 1 O
 5 O
 . O
 
 1 O
-  O
+
 μ O
 m O
 o O
@@ -55209,7 +55192,7 @@ l O
 
 3 O
 0 O
-  O
+
 p O
 g O
 / O
@@ -55536,7 +55519,7 @@ g O
 原 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 ， O
@@ -55549,7 +55532,7 @@ g O
 体 I-LAB
 定 I-LAB
 性 I-LAB
-  O
+
 阳 O
 性 O
 。 O
@@ -55792,7 +55775,7 @@ T I-LAB
 ： O
 4 O
 4 O
-  O
+
 I O
 U O
 / O
@@ -55806,7 +55789,7 @@ T I-LAB
 1 O
 3 O
 4 O
-  O
+
 I O
 U O
 / O
@@ -56346,7 +56329,7 @@ D I-LAB
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 5 O
 0 O
 u O
@@ -56362,7 +56345,7 @@ L O
 胆 I-LAB
 红 I-LAB
 素 I-LAB
-  O
+
 1 O
 0 O
 u O
@@ -56376,7 +56359,7 @@ L O
 A B-LAB
 L I-LAB
 T I-LAB
-  O
+
 4 O
 0 O
 U O
@@ -56387,7 +56370,7 @@ L O
 A B-LAB
 S I-LAB
 T I-LAB
-  O
+
 1 O
 8 O
 U O
@@ -56787,7 +56770,7 @@ T I-RAY
 示 O
 E B-LAB
 F I-LAB
-  O
+
 2 O
 5 O
 % O
@@ -57555,14 +57538,14 @@ T I-RAY
 管 I-DIS
 哮 I-DIS
 喘 I-DIS
-  O
+
 ; O
 4 O
 、 O
 冠 B-DIS
 心 I-DIS
 病 I-DIS
-  O
+
 频 B-DIS
 发 I-DIS
 多 I-DIS
@@ -58189,7 +58172,7 @@ D I-DIS
 W B-LAB
 B I-LAB
 C I-LAB
-  O
+
 3 O
 . O
 
@@ -58205,7 +58188,7 @@ L O
 H B-LAB
 G I-LAB
 B I-LAB
-  O
+
 1 O
 1 O
 7 O
@@ -58214,7 +58197,7 @@ g O
 l O
 、 O
 N B-LAB
-  O
+
 6 O
 6 O
 . O

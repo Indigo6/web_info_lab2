@@ -95,7 +95,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -255,7 +254,7 @@ A O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -278,7 +277,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -379,9 +378,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -562,7 +561,6 @@ M O
 切 I-OPE
 除 I-OPE
 ， I-OPE
-
 空 I-OPE
 肠 I-OPE
 J I-OPE
@@ -612,7 +610,6 @@ J I-OPE
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -624,7 +621,6 @@ J I-OPE
 图 I-DIS
 像 I-DIS
 ， I-DIS
-
 蕈 I-DIS
 伞 I-DIS
 型 I-DIS
@@ -822,7 +818,7 @@ B O
 2 O
 + O
 ） O
-  O
+
 。 O
 
 依 O
@@ -1112,7 +1108,6 @@ G O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -1143,7 +1138,7 @@ M O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -1168,7 +1163,7 @@ M O
 癌 O
 。 O
 
-  O
+
 肠 B-ANA
 壁 I-ANA
 一 I-ANA
@@ -1266,7 +1261,7 @@ U O
 K O
 E O
 S O
-  O
+
 B O
 。 O
 
@@ -1305,7 +1300,7 @@ B O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -1318,24 +1313,24 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
 氟 I-MED
 1 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -1566,7 +1561,6 @@ D O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 溃 I-DIS
 疡 I-DIS
 型 I-DIS
@@ -1705,7 +1699,7 @@ U O
 C O
 K O
 S O
-  O
+
 C O
 ） O
 。 O
@@ -1731,9 +1725,9 @@ C O
 期 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -1795,9 +1789,9 @@ C O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -1972,7 +1966,6 @@ C I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -2759,7 +2752,6 @@ I I-DIS
 性 I-DIS
 癌 I-DIS
 ， I-DIS
-
 印 I-DIS
 戒 I-DIS
 细 I-DIS
@@ -2768,7 +2760,6 @@ I I-DIS
 为 I-DIS
 主 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -3139,7 +3130,6 @@ R O
 增 I-DIS
 生 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 鳞 I-DIS
@@ -3165,7 +3155,6 @@ R O
 腹 I-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -3191,7 +3180,6 @@ T I-RAY
 管 I-DIS
 癌 I-DIS
 ， I-DIS
-
 伴 I-DIS
 右 I-DIS
 侧 I-DIS
@@ -3690,13 +3678,13 @@ X O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 0 O
 0 O
 M O
 G O
-  O
+
 I O
 V O
 D O
@@ -3707,24 +3695,24 @@ P O
 替 B-MED
 吉 I-MED
 奥 I-MED
-  O
+
 6 O
 0 O
 M O
 G O
-  O
+
 Q O
 N O
 + O
 替 B-MED
 吉 I-MED
 奥 I-MED
-  O
+
 4 O
 0 O
 M O
 G O
-  O
+
 Q O
 M O
 ） O
@@ -4328,9 +4316,9 @@ N O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -5080,7 +5068,6 @@ M O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 小 I-DIS
 灶 I-DIS
 区 I-DIS
@@ -5554,7 +5541,7 @@ D O
 探 O
 查 O
 : O
-  O
+
 部 O
 分 O
 大 O
@@ -5843,7 +5830,6 @@ D O
 增 I-DIS
 生 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 腺 I-DIS
@@ -5858,7 +5844,6 @@ D O
 瘤 I-DIS
 变 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 区 I-DIS
@@ -6027,9 +6012,9 @@ P O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -6796,7 +6781,6 @@ R O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -7610,7 +7594,6 @@ B I-DIS
 1 I-DIS
 期 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 级 I-DIS
@@ -7720,7 +7703,6 @@ N I-DIS
 M I-DIS
 0 I-DIS
 , I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -7796,21 +7778,21 @@ X O
 希 B-MED
 罗 I-MED
 达 I-MED
-  O
+
 1 O
 2 O
 5 O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 P O
 O O
-  O
+
 D O
 1 O
 - O
@@ -7826,14 +7808,14 @@ D O
 0 O
 M O
 G O
-  O
+
 I O
 V O
 D O
 R O
 I O
 P O
-  O
+
 Q O
 3 O
 W O
@@ -7936,7 +7918,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -8072,11 +8053,11 @@ X O
 0 O
 M O
 G O
-  O
+
 Q O
 3 O
 W O
-  O
+
 I O
 V O
 D O
@@ -8215,7 +8196,7 @@ D O
 查 O
 示 O
 : O
-  O
+
 胃 B-DIS
 体 I-DIS
 中 I-DIS
@@ -8225,7 +8206,7 @@ D O
 疡 I-DIS
 ， O
 
-  O
+
 病 O
 理 O
 示 O
@@ -8236,7 +8217,7 @@ D O
 癌 I-DIS
 ， O
 
-  O
+
 无 O
 腹 B-ANA
 胀 O
@@ -8253,12 +8234,12 @@ D O
 呕 O
 吐 O
 、 O
-  O
+
 无 O
 头 B-ANA
 晕 O
 、 O
-  O
+
 心 B-ANA
 悸 O
 、 O
@@ -8268,7 +8249,7 @@ D O
 症 O
 ， O
 
-  O
+
 2 O
 0 O
 1 O
@@ -8293,7 +8274,7 @@ D O
 术 I-OPE
 ， O
 
-  O
+
 2 O
 0 O
 1 O
@@ -8338,7 +8319,7 @@ M O
 物 O
 ， O
 
-  O
+
 镜 O
 上 O
 为 O
@@ -8395,7 +8376,7 @@ M O
 癌 O
 ， O
 
-  O
+
 贲 B-ANA
 门 I-ANA
 左 I-ANA
@@ -8448,7 +8429,7 @@ A O
 + O
 ) O
 、 O
-  O
+
 P O
 5 O
 3 O
@@ -8456,14 +8437,14 @@ P O
 + O
 ) O
 、 O
-  O
+
 P O
 R O
 ( O
 - O
 ) O
 、 O
-  O
+
 E O
 R O
 - O
@@ -8472,7 +8453,7 @@ B O
 + O
 ) O
 、 O
-  O
+
 E O
 R O
 ( O
@@ -8481,7 +8462,7 @@ R O
 + O
 ) O
 、 O
-  O
+
 共 O
 计 O
 ， O
@@ -8489,7 +8470,7 @@ R O
 L O
 N O
 : O
-  O
+
 1 O
 3 O
 / O
@@ -8499,7 +8480,7 @@ N O
 移 O
 ， O
 
-  O
+
 术 O
 后 O
 于 O
@@ -8527,7 +8508,7 @@ N O
 程 O
 ， O
 
-  O
+
 具 O
 体 O
 用 O
@@ -8540,11 +8521,11 @@ N O
 0 O
 M O
 G O
-  O
+
 静 O
 点 O
 + O
-  O
+
 希 B-MED
 罗 I-MED
 达 I-MED
@@ -8554,11 +8535,11 @@ G O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 P O
 O O
 ， O
@@ -8584,7 +8565,7 @@ O O
 限 O
 ， O
 
-  O
+
 7 O
 月 O
 份 O
@@ -8596,7 +8577,7 @@ O O
 重 O
 ， O
 
-  O
+
 7 O
 月 O
 1 O
@@ -8612,7 +8593,7 @@ O O
 * O
 ， O
 
-  O
+
 ， O
 
 行 O
@@ -8635,7 +8616,7 @@ I O
 移 I-DIS
 ， O
 
-  O
+
 行 O
 甘 B-MED
 露 I-MED
@@ -8646,7 +8627,7 @@ I O
 米 I-MED
 松 I-MED
 、 O
-  O
+
 洛 B-MED
 赛 I-MED
 克 I-MED
@@ -8685,24 +8666,24 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
-  O
+
 替 B-MED
 吉 I-MED
 奥 I-MED
-  O
+
 5 O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -8764,16 +8745,16 @@ F O
 替 B-MED
 吉 I-MED
 奥 I-MED
-  O
+
 5 O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -8802,7 +8783,7 @@ D O
 科 O
 ， O
 
-  O
+
 我 O
 科 O
 以 O
@@ -8831,14 +8812,14 @@ V I-DIS
 入 O
 ， O
 
-  O
+
 入 O
 科 O
 以 O
 来 O
 ， O
 
-  O
+
 精 O
 神 O
 饮 O
@@ -8847,12 +8828,12 @@ V I-DIS
 可 O
 ， O
 
-  O
+
 无 O
 恶 O
 心 O
 、 O
-  O
+
 呕 O
 吐 O
 , O
@@ -9015,7 +8996,6 @@ N I-OPE
 化 I-DIS
 ) I-DIS
 , I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -9081,7 +9061,7 @@ M O
 癌 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -9106,7 +9086,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 一 B-ANA
 站 I-ANA
@@ -9125,7 +9105,7 @@ M O
 移 O
 。 O
 
-  O
+
 中 B-ANA
 央 I-ANA
 组 I-ANA
@@ -9142,7 +9122,7 @@ M O
 癌 O
 。 O
 
-  O
+
 ， O
 
 癌 O
@@ -9196,7 +9176,7 @@ N O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -9219,7 +9199,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -9352,9 +9332,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 精 O
@@ -9479,7 +9459,6 @@ D O
 为 I-DIS
 主 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -10607,9 +10586,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -10626,7 +10605,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -11380,7 +11359,6 @@ I O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -11510,7 +11488,7 @@ S O
 后 O
 分 O
 期 O
-  O
+
 P O
 T O
 4 O
@@ -11518,7 +11496,7 @@ N O
 1 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -11550,7 +11528,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -11561,14 +11539,14 @@ D O
 钙 I-MED
 5 O
 0 O
-  O
+
 M O
 G O
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 氟 B-MED
 尿 I-MED
@@ -11579,20 +11557,20 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 。 O
 
-  O
-  O
-  O
-  O
+
+
+
+
 院 O
 外 O
 期 O
@@ -11650,10 +11628,10 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
-  O
+
+
+
+
 病 O
 人 O
 自 O
@@ -13899,7 +13877,6 @@ T I-DIS
 治 I-OPE
 术 I-OPE
 ， I-OPE
-
 毕 I-OPE
 I I-OPE
 I I-OPE
@@ -14001,7 +13978,6 @@ M O
 肿 I-DIS
 瘤 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 区 I-DIS
@@ -14016,7 +13992,6 @@ M O
 G I-DIS
 3 I-DIS
 ， I-DIS
-
 约 I-DIS
 占 I-DIS
 肿 I-DIS
@@ -14055,7 +14030,6 @@ G I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 分 I-DIS
 化 I-DIS
 I I-DIS
@@ -14073,7 +14047,6 @@ N I-DIS
 肠 I-DIS
 型 I-DIS
 ， I-DIS
-
 约 I-DIS
 占 I-DIS
 肿 I-DIS
@@ -14385,7 +14358,7 @@ D O
 ) O
 。 O
 
-  O
+
 手 O
 术 O
 过 O
@@ -14415,7 +14388,7 @@ N O
 3 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -14554,7 +14527,7 @@ X O
 柔 I-MED
 比 I-MED
 星 I-MED
-  O
+
 5 O
 0 O
 M O
@@ -14568,7 +14541,7 @@ M O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 3 O
 0 O
@@ -14582,7 +14555,7 @@ M O
 希 B-MED
 罗 I-MED
 达 I-MED
-  O
+
 1 O
 0 O
 0 O
@@ -14592,11 +14565,11 @@ G O
 / O
 M O
 2 O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -14615,7 +14588,7 @@ D O
 柔 I-MED
 比 I-MED
 星 I-MED
-  O
+
 7 O
 6 O
 . O
@@ -14625,7 +14598,7 @@ D O
 5 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -14634,7 +14607,7 @@ D O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 9 O
 9 O
@@ -14645,7 +14618,7 @@ D O
 3 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -14653,7 +14626,7 @@ D O
 希 B-MED
 罗 I-MED
 达 I-MED
-  O
+
 1 O
 5 O
 3 O
@@ -14666,11 +14639,11 @@ G O
 / O
 M O
 2 O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -14694,7 +14667,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -14703,13 +14676,13 @@ D O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -14717,24 +14690,24 @@ D O
 希 B-MED
 罗 I-MED
 达 I-MED
-  O
+
 1 O
 5 O
 0 O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
 1 O
 4 O
-  O
+
 Q O
 3 O
 W O
@@ -16697,7 +16670,6 @@ M O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -16713,7 +16685,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -17075,7 +17046,7 @@ X O
 S B-MED
 - I-MED
 1 I-MED
-  O
+
 6 O
 0 O
 M O
@@ -17813,7 +17784,6 @@ M O
 腹 I-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -18049,7 +18019,6 @@ T I-RAY
 扫 I-RAY
 + I-RAY
 ， I-RAY
-
 增 I-RAY
 强 I-RAY
 ： O
@@ -18707,7 +18676,6 @@ A I-DIS
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -18858,7 +18826,7 @@ I O
 + O
 ） O
 、 O
-  O
+
 R O
 R O
 M O
@@ -18944,9 +18912,9 @@ I O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -19099,9 +19067,9 @@ I O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 神 O
@@ -19604,7 +19572,6 @@ T I-RAY
 扫 I-RAY
 + I-RAY
 ， I-RAY
-
 增 I-RAY
 强 I-RAY
 示 O
@@ -20833,7 +20800,7 @@ A O
 （ O
 - O
 ） O
-  O
+
 。 O
 
 术 O
@@ -20874,7 +20841,7 @@ A O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -20887,11 +20854,11 @@ D O
 
 0 O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -21084,11 +21051,11 @@ T I-RAY
 院 O
 。 O
 
-  O
-  O
-  O
-  O
-  O
+
+
+
+
+
 目 O
 前 O
 患 O
@@ -21201,7 +21168,6 @@ T I-RAY
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -21486,7 +21452,7 @@ L O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -21499,12 +21465,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -21515,12 +21481,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 。 O
@@ -21643,9 +21609,9 @@ L O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 目 O
 前 O
 患 O
@@ -21868,9 +21834,7 @@ I I-DIS
 巴 I-DIS
 瘤 I-DIS
 ， I-DIS
-
 ， I-DIS
-
 弥 I-DIS
 漫 I-DIS
 大 I-DIS
@@ -22128,7 +22092,7 @@ T I-RAY
 计 I-LAB
 数 I-LAB
 : O
-  O
+
 4 O
 . O
 
@@ -22150,7 +22114,7 @@ L O
 蛋 I-LAB
 白 I-LAB
 : O
-  O
+
 1 O
 3 O
 2 O
@@ -22166,7 +22130,7 @@ L O
 计 I-LAB
 数 I-LAB
 : O
-  O
+
 1 O
 6 O
 8 O
@@ -22186,7 +22150,7 @@ L O
 计 I-LAB
 数 I-LAB
 : O
-  O
+
 4 O
 . O
 
@@ -22211,7 +22175,7 @@ L O
 分 I-LAB
 比 I-LAB
 : O
-  O
+
 6 O
 6 O
 . O
@@ -22229,7 +22193,7 @@ L O
 分 I-LAB
 比 I-LAB
 : O
-  O
+
 2 O
 2 O
 . O
@@ -22242,7 +22206,6 @@ E I-RAY
 T I-RAY
 / I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -22440,7 +22403,7 @@ O O
 系 O
 + O
 ) O
-  O
+
 C O
 D O
 6 O
@@ -22450,7 +22413,7 @@ D O
 核 O
 + O
 ) O
-  O
+
 C O
 D O
 6 O
@@ -22462,7 +22425,7 @@ D O
 胞 O
 + O
 ) O
-  O
+
 C O
 D O
 3 O
@@ -22470,7 +22433,7 @@ D O
 ( O
 - O
 ) O
-  O
+
 C O
 D O
 2 O
@@ -22482,7 +22445,7 @@ D O
 巴 O
 + O
 ) O
-  O
+
 C O
 D O
 7 O
@@ -22495,7 +22458,7 @@ A O
 巴 O
 + O
 ) O
-  O
+
 C O
 D O
 3 O
@@ -22506,7 +22469,7 @@ D O
 巴 O
 + O
 ) O
-  O
+
 C O
 D O
 5 O
@@ -22514,7 +22477,7 @@ D O
 ( O
 - O
 ) O
-  O
+
 K O
 I O
 - O
@@ -22526,7 +22489,7 @@ I O
 % O
 + O
 ) O
-  O
+
 C O
 Y O
 C O
@@ -22538,7 +22501,7 @@ D O
 ( O
 - O
 ) O
-  O
+
 V O
 S O
 3 O
@@ -22549,7 +22512,7 @@ C O
 数 O
 + O
 ) O
-  O
+
 B O
 C O
 L O
@@ -22562,7 +22525,7 @@ L O
 巴 O
 + O
 ) O
-  O
+
 C O
 D O
 1 O
@@ -22570,14 +22533,14 @@ D O
 ( O
 - O
 ) O
-  O
+
 T O
 D O
 T O
 ( O
 - O
 ) O
-  O
+
 网 O
 染 O
 示 O
@@ -22627,12 +22590,12 @@ P O
 美 B-MED
 罗 I-MED
 华 I-MED
-  O
+
 0 O
 . O
 
 6 O
-  O
+
 D O
 0 O
 + O
@@ -22643,7 +22606,7 @@ X I-MED
 . O
 
 2 O
-  O
+
 D O
 1 O
 + O
@@ -22653,7 +22616,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -22666,7 +22629,7 @@ M O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -22677,7 +22640,7 @@ X I-MED
 5 O
 M O
 G O
-  O
+
 D O
 1 O
 - O
@@ -22723,7 +22686,7 @@ D O
 计 I-LAB
 数 I-LAB
 : O
-  O
+
 4 O
 . O
 
@@ -22819,7 +22782,7 @@ L O
 分 I-LAB
 比 I-LAB
 : O
-  O
+
 0 O
 . O
 
@@ -22838,13 +22801,13 @@ L O
 常 O
 规 O
 : O
-  O
+
 红 B-LAB
 细 I-LAB
 胞 I-LAB
 计 I-LAB
 数 I-LAB
-  O
+
 4 O
 . O
 
@@ -22940,7 +22903,7 @@ L O
 分 I-LAB
 比 I-LAB
 : O
-  O
+
 1 O
 4 O
 . O
@@ -23270,7 +23233,6 @@ S O
 生 I-DIS
 症 I-DIS
 ， I-DIS
-
 伴 I-DIS
 P I-DIS
 I I-DIS
@@ -23557,7 +23519,6 @@ A I-LAB
 开 I-OPE
 腹 I-OPE
 ， I-OPE
-
 右 I-OPE
 半 I-OPE
 结 I-OPE
@@ -23761,7 +23722,7 @@ A I-LAB
 癌 I-DIS
 术 I-DIS
 后 I-DIS
-  O
+
 第 O
 2 O
 次 O
@@ -23779,9 +23740,9 @@ A I-LAB
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -23872,7 +23833,6 @@ A I-LAB
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 伴 I-DIS
 印 I-DIS
 戒 I-DIS
@@ -23880,7 +23840,6 @@ A I-LAB
 胞 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -23888,7 +23847,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -24094,7 +24052,7 @@ V O
 织 O
 ； O
 - O
-  O
+
 ， O
 
 肿 O
@@ -24292,10 +24250,10 @@ O O
 L O
 V O
 E O
-  O
+
 A O
 组 O
-  O
+
 已 O
 行 O
 X O
@@ -25519,7 +25477,6 @@ E I-DIS
 疡 I-DIS
 型 I-DIS
 ， I-DIS
-
 低 I-DIS
 － I-DIS
 中 I-DIS
@@ -25527,12 +25484,12 @@ E I-DIS
 化 I-DIS
 腺 I-DIS
 癌 I-DIS
-  O
+
 断 O
 端 O
 无 O
 癌 O
-  O
+
 ， O
 
 静 O
@@ -25565,7 +25522,7 @@ E I-DIS
 8 O
 枚 O
 ) O
-  O
+
 。 O
 
 （ O
@@ -25715,7 +25672,6 @@ E I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 - I-DIS
@@ -26810,7 +26766,6 @@ I I-DIS
 I I-DIS
 级 I-DIS
 ， I-DIS
-
 神 I-DIS
 经 I-DIS
 内 I-DIS
@@ -27436,7 +27391,7 @@ M O
 癌 I-DIS
 。 O
 
-  O
+
 于 O
 2 O
 0 O
@@ -27645,7 +27600,7 @@ N O
 B O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -27730,14 +27685,14 @@ C O
 3 O
 给 O
 予 O
-  O
+
 F O
 O O
 L O
 F O
 O O
 X O
-  O
+
 方 O
 案 O
 化 O
@@ -28023,9 +27978,9 @@ X O
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 自 O
 患 O
 病 O
@@ -28155,7 +28110,7 @@ M O
 - O
 2 O
 7 O
-  O
+
 ， O
 
 冰 O
@@ -28256,7 +28211,7 @@ L O
 - O
 2 O
 8 O
-  O
+
 ， O
 
 组 O
@@ -28439,9 +28394,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -28458,7 +28413,7 @@ U O
 退 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -29452,7 +29407,6 @@ N I-OPE
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -29460,7 +29414,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -29531,7 +29484,7 @@ N I-DIS
 癌 O
 细 O
 胞 O
-  O
+
 H O
 E O
 R O
@@ -29590,15 +29543,15 @@ X O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
 M O
 G O
-  O
+
 + O
-  O
+
 替 B-MED
 吉 I-MED
 奥 I-MED
@@ -29607,7 +29560,7 @@ G O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
@@ -30296,7 +30249,6 @@ U I-MED
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -30342,7 +30294,7 @@ M O
 线 O
 。 O
 
-  O
+
 “ O
 一 O
 站 O
@@ -30520,9 +30472,9 @@ S O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -30719,7 +30671,6 @@ I I-OPE
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -30729,7 +30680,6 @@ I I-OPE
 胞 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -30737,7 +30687,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -30847,7 +30796,7 @@ S O
 ） O
 。 O
 
-  O
+
 术 O
 后 O
 于 O
@@ -30925,29 +30874,29 @@ S O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
 M O
 G O
-  O
+
 Q O
 3 O
 W O
-  O
+
 I O
 V O
 D O
 R O
 I O
 P O
-  O
+
 D O
 1 O
-  O
+
 + O
-  O
+
 替 B-MED
 吉 I-MED
 奥 I-MED
@@ -30956,14 +30905,14 @@ D O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 P O
 O O
-  O
+
 D O
 1 O
 - O
@@ -31128,7 +31077,6 @@ I I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -31291,10 +31239,10 @@ B O
 院 O
 。 O
 
-  O
-  O
-  O
-  O
+
+
+
+
 病 O
 人 O
 自 O
@@ -31467,7 +31415,7 @@ I O
 B O
 。 O
 
-  O
+
 已 O
 于 O
 2 O
@@ -31673,21 +31621,18 @@ N I-OPE
 层 I-DIS
 ） I-DIS
 ， I-DIS
-
 扁 I-DIS
 平 I-DIS
 隆 I-DIS
 起 I-DIS
 型 I-DIS
 ， I-DIS
-
 高 I-DIS
 分 I-DIS
 化 I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 级 I-DIS
 ， O
@@ -32389,7 +32334,7 @@ I O
 - O
 ） O
 、 O
-  O
+
 R O
 R O
 M O
@@ -32461,7 +32406,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -32486,7 +32431,7 @@ G O
 7 O
 5 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -32567,9 +32512,9 @@ D O
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -32801,7 +32746,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 “ O
 三 B-ANA
@@ -32842,7 +32787,7 @@ M O
 癌 O
 。 O
 
-  O
+
 ， O
 
 癌 O
@@ -32895,7 +32840,7 @@ I O
 + O
 ） O
 、 O
-  O
+
 R O
 R O
 M O
@@ -32950,7 +32895,7 @@ B O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -32963,12 +32908,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 氟 B-MED
 尿 I-MED
@@ -32979,12 +32924,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 。 O
@@ -33031,9 +32976,9 @@ D O
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -33653,7 +33598,7 @@ M O
 膜 O
 ， O
 
-  O
+
 双 O
 端 O
 切 O
@@ -33678,7 +33623,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 肠 B-ANA
 壁 I-ANA
@@ -33699,7 +33644,7 @@ M O
 移 O
 。 O
 
-  O
+
 中 B-ANA
 间 I-ANA
 组 I-ANA
@@ -33757,7 +33702,7 @@ H O
 + O
 ） O
 、 O
-  O
+
 M O
 S O
 H O
@@ -33821,7 +33766,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -33846,7 +33791,7 @@ G O
 7 O
 5 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -33960,16 +33905,16 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
-  O
+
+
+
+
+
+
+
+
+
+
 发 O
 病 O
 以 O
@@ -34157,7 +34102,6 @@ N I-OPE
 分 I-DIS
 化 I-DIS
 ， I-DIS
-
 局 I-DIS
 部 I-DIS
 伴 I-DIS
@@ -34177,7 +34121,6 @@ N I-OPE
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 约 I-DIS
 占 I-DIS
 3 I-DIS
@@ -34185,7 +34128,6 @@ N I-OPE
 % I-DIS
 ） I-DIS
 ， I-DIS
-
   I-DIS
 隆 I-DIS
 起 I-DIS
@@ -34229,7 +34171,7 @@ M O
 癌 O
 转 O
 移 O
-  O
+
 灶 O
 （ O
 1 O
@@ -34272,7 +34214,7 @@ M O
 癌 O
 。 O
 
-  O
+
 多 B-DIS
 发 I-DIS
 性 I-DIS
@@ -34350,7 +34292,7 @@ H O
 + O
 ） O
 、 O
-  O
+
 M O
 L O
 H O
@@ -34447,7 +34389,7 @@ D O
 7 O
 5 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -34463,7 +34405,7 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -34512,9 +34454,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 出 O
 院 O
 后 O
@@ -36000,7 +35942,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 呈 I-DIS
@@ -36011,7 +35952,6 @@ N I-OPE
 分 I-DIS
 化 I-DIS
 ， I-DIS
-
 隆 I-DIS
 起 I-DIS
 型 I-DIS
@@ -36099,7 +36039,7 @@ M O
 移 O
 。 O
 
-  O
+
 “ O
 中 O
 央 O
@@ -36183,7 +36123,7 @@ S O
 ） O
 。 O
 
-  O
+
 2 O
 0 O
 1 O
@@ -36235,7 +36175,7 @@ G O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
@@ -36316,9 +36256,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -37197,9 +37137,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -37279,7 +37219,6 @@ U O
 管 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 级 I-DIS
@@ -37481,7 +37420,7 @@ F O
 疗 O
 。 O
 
-  O
+
 5 O
 - O
 2 O
@@ -38774,7 +38713,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -38787,12 +38726,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -38803,12 +38742,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ” O
@@ -38878,8 +38817,8 @@ D O
 院 O
 。 O
 
-  O
-  O
+
+
 患 O
 者 O
 自 O
@@ -39518,7 +39457,6 @@ I I-DIS
 B I-DIS
 期 I-DIS
 ， I-DIS
-
 G I-DIS
 1 I-DIS
 ） I-DIS
@@ -40220,7 +40158,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -40285,7 +40222,7 @@ N O
 3 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -40363,11 +40300,11 @@ L O
 书 O
 后 O
 行 O
-  O
+
 S O
 O O
 X O
-  O
+
 （ O
 奥 B-MED
 沙 I-MED
@@ -40386,7 +40323,7 @@ X O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
@@ -41441,7 +41378,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 , I-DIS
-
 隆 I-DIS
 起 I-DIS
 型 I-DIS
@@ -41641,7 +41577,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -41654,12 +41590,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -41670,12 +41606,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -42543,7 +42479,6 @@ I I-DIS
 I I-DIS
 级 I-DIS
 ， I-DIS
-
 伴 I-DIS
 神 I-DIS
 经 I-DIS
@@ -43157,7 +43092,6 @@ S I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 型 I-DIS
@@ -43183,7 +43117,7 @@ M O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -43193,7 +43127,7 @@ M O
 见 O
 癌 O
 ； O
-  O
+
 一 B-ANA
 站 I-ANA
 （ I-ANA
@@ -43997,7 +43931,7 @@ N I-OPE
 理 O
 诊 O
 断 O
-  O
+
 ， O
 
 : O
@@ -44012,7 +43946,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -44240,7 +44173,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 L O
 + O
@@ -44267,7 +44200,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
@@ -44329,7 +44262,7 @@ D O
 好 O
 ， O
 
-  O
+
 无 O
 乏 O
 力 O
@@ -44370,7 +44303,7 @@ D O
 现 O
 明 O
 显 O
-  O
+
 腹 B-ANA
 痛 O
 、 O
@@ -45102,7 +45035,7 @@ A I-DIS
 腺 I-DIS
 癌 I-DIS
 ； O
-  O
+
 ( O
 直 B-ANA
 肠 I-ANA
@@ -45521,9 +45454,9 @@ C I-DIS
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -46832,7 +46765,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -46884,7 +46816,7 @@ M O
 ） O
 。 O
 
-  O
+
 呈 O
 一 B-ANA
 站 I-ANA
@@ -47842,7 +47774,6 @@ H O
 D I-OPE
 2 I-OPE
 , I-OPE
-
 R I-OPE
 O I-OPE
 U I-OPE
@@ -48082,7 +48013,6 @@ I I-DIS
 I I-DIS
 级 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -48615,7 +48545,6 @@ S I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -48802,12 +48731,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -48818,12 +48747,12 @@ D O
 ） O
 1 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 脉 O
 滴 O
@@ -48981,7 +48910,6 @@ D O
 腹 I-RAY
 、 I-RAY
 ， I-RAY
-
 盆 I-RAY
 腔 I-RAY
 C I-RAY
@@ -49087,7 +49015,6 @@ A I-DIS
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 呈 I-DIS
@@ -49098,7 +49025,6 @@ A I-DIS
 图 I-DIS
 像 I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -49123,14 +49049,14 @@ C O
 M O
 。 O
 
-  O
+
 侵 O
 达 O
 被 O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -49159,7 +49085,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 肠 B-ANA
 壁 O
@@ -49180,7 +49106,7 @@ M O
 移 O
 。 O
 
-  O
+
 符 O
 合 O
 炎 B-DIS
@@ -49192,7 +49118,7 @@ M O
 肉 I-DIS
 。 O
 
-  O
+
 ， O
 
 免 O
@@ -49249,9 +49175,9 @@ N O
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -49317,9 +49243,9 @@ N O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -49393,7 +49319,7 @@ N O
 转 I-DIS
 移 I-DIS
 ？ O
-  O
+
 \ O
 " O
 ， O
@@ -51477,7 +51403,7 @@ M O
 移 O
 。 O
 
-  O
+
 “ O
 胃 B-ANA
 第 I-ANA
@@ -51538,7 +51464,7 @@ I O
 + O
 ） O
 、 O
-  O
+
 β O
 - O
 T O
@@ -51646,9 +51572,9 @@ B O
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -52045,7 +51971,6 @@ B O
 D I-OPE
 2 I-OPE
 ， I-OPE
-
 R I-OPE
 1 I-OPE
 ） I-OPE
@@ -52330,9 +52255,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -53441,7 +53366,6 @@ D O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -53898,7 +53822,6 @@ I I-DIS
 I I-DIS
 级 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -54507,14 +54430,14 @@ D O
 疫 O
 组 O
 化 O
-  O
+
 C O
 K O
 7 O
 （ O
 － O
 ） O
-  O
+
 C O
 K O
 2 O
@@ -54524,7 +54447,7 @@ K O
 + O
 + O
 ） O
-  O
+
 C O
 E O
 A O
@@ -54532,7 +54455,7 @@ A O
 + O
 + O
 ） O
-  O
+
 V O
 I O
 L O
@@ -54544,7 +54467,7 @@ N O
 + O
 + O
 ） O
-  O
+
 C O
 D O
 X O
@@ -54554,7 +54477,7 @@ X O
 + O
 + O
 ） O
-  O
+
 K O
 I O
 - O
@@ -54569,14 +54492,14 @@ I O
 9 O
 0 O
 % O
-  O
+
 P O
 5 O
 3 O
 （ O
 + O
 ） O
-  O
+
 C O
 E O
 R O
@@ -54587,7 +54510,7 @@ B O
 （ O
 － O
 ） O
-  O
+
 E O
 G O
 F O
@@ -54595,7 +54518,7 @@ R O
 （ O
 + O
 ） O
-  O
+
 G O
 S O
 T O
@@ -54604,7 +54527,7 @@ T O
 （ O
 + O
 ） O
-  O
+
 T O
 O O
 P O
@@ -54615,35 +54538,35 @@ I O
 + O
 + O
 ） O
-  O
+
 P O
 G O
 P O
 （ O
 + O
 ） O
-  O
+
 S O
 Y O
 N O
 （ O
 － O
 ） O
-  O
+
 C O
 G O
 A O
 （ O
 － O
 ） O
-  O
+
 N O
 S O
 E O
 （ O
 － O
 ） O
-  O
+
 C O
 D O
 5 O
@@ -54651,7 +54574,7 @@ D O
 （ O
 － O
 ） O
-  O
+
 M O
 L O
 H O
@@ -54661,7 +54584,7 @@ H O
 + O
 + O
 ） O
-  O
+
 M O
 S O
 H O
@@ -54672,7 +54595,7 @@ H O
 + O
 + O
 ） O
-  O
+
 M O
 S O
 H O
@@ -54683,7 +54606,7 @@ H O
 + O
 + O
 ） O
-  O
+
 P O
 M O
 S O
@@ -54761,9 +54684,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -55906,7 +55829,6 @@ I O
 术 I-DIS
 后 I-DIS
 ， I-DIS
-
 回 I-DIS
 肠 I-DIS
 造 I-DIS
@@ -56188,9 +56110,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 发 O
@@ -56201,7 +56123,7 @@ U O
 
 神 O
 志 O
-  O
+
 清 O
 晰 O
 ， O
@@ -56794,9 +56716,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -56813,7 +56735,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -57131,9 +57053,9 @@ S O
 科 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 精 O
@@ -57708,12 +57630,12 @@ N O
 0 O
 M O
 0 O
-  O
+
 I O
 I O
 A O
 期 O
-  O
+
 D O
 U O
 K O
@@ -57779,7 +57701,7 @@ B O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -57802,7 +57724,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -58591,7 +58513,6 @@ I I-OPE
 I I-OPE
 式 I-OPE
 ， I-OPE
-
 D I-OPE
 2 I-OPE
 ） I-OPE
@@ -59969,9 +59890,9 @@ J I-OPE
 约 O
 1 O
 0 O
-  O
+
 X O
-  O
+
 8 O
 C O
 M O
@@ -60021,7 +59942,7 @@ M O
 0 O
 1 O
 3 O
-  O
+
 1 O
 1 O
 2 O
@@ -60268,7 +60189,7 @@ B O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -60281,12 +60202,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -60297,12 +60218,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -60592,7 +60513,6 @@ D O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -60867,7 +60787,6 @@ G O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 - I-DIS
@@ -63113,7 +63032,6 @@ C O
 造 I-OPE
 瘘 I-OPE
 ， I-OPE
-
 阑 I-OPE
 尾 I-OPE
 切 I-OPE
@@ -63334,7 +63252,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -63347,12 +63265,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -63363,12 +63281,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -63490,9 +63408,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 病 O
 人 O
 自 O
@@ -63704,7 +63622,7 @@ T I-RAY
 癌 I-DIS
 。 O
 
-  O
+
 ， O
 
 幽 B-LAB
@@ -64012,9 +63930,9 @@ I O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 发 O
 病 O
 以 O
@@ -64171,7 +64089,7 @@ I O
 结 I-ANA
 肠 I-ANA
 ） O
-  O
+
 镜 O
 检 O
 为 O
@@ -64348,7 +64266,7 @@ I O
 肝 I-DIS
 转 I-DIS
 移 I-DIS
-  O
+
 P O
 T O
 4 O
@@ -64357,7 +64275,7 @@ N O
 1 O
 M O
 1 O
-  O
+
 I O
 V O
 期 O
@@ -64389,7 +64307,7 @@ V O
 胆 I-DIS
 囊 I-DIS
 炎 I-DIS
-  O
+
 5 O
 . O
 
@@ -65440,7 +65358,6 @@ T O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -66456,10 +66373,10 @@ R O
 - O
 2 O
 ( O
-  O
+
 0 O
 ) O
-  O
+
 。 O
 
 现 O
@@ -67041,9 +66958,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -67860,7 +67777,7 @@ T O
 O O
 P O
 O O
-  O
+
 I O
 I O
 少 O
@@ -67895,7 +67812,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -67911,7 +67828,7 @@ D O
 2 O
 - O
 6 O
-  O
+
 + O
 氟 B-MED
 尿 I-MED
@@ -67922,12 +67839,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -67958,9 +67875,9 @@ D O
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -68021,9 +67938,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -68350,7 +68267,6 @@ N O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -68524,7 +68440,7 @@ N O
 2 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -68904,7 +68820,7 @@ N O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -68917,7 +68833,7 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -69150,7 +69066,6 @@ D O
 分 I-DIS
 化 I-DIS
 ， I-DIS
-
 部 I-DIS
 分 I-DIS
 为 I-DIS
@@ -69162,7 +69077,6 @@ D O
 像 I-DIS
 ） I-DIS
 ， I-DIS
-
 符 I-DIS
 合 I-DIS
 绒 I-DIS
@@ -69313,7 +69227,7 @@ M O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -69336,7 +69250,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -69375,9 +69289,9 @@ D O
 轻 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -69441,9 +69355,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -70429,7 +70343,7 @@ F O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 - O
@@ -70443,7 +70357,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 化 O
@@ -70511,7 +70425,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -70521,7 +70435,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 - O
@@ -70620,7 +70534,6 @@ D O
 探 I-ANA
 查 I-ANA
 ， I-ANA
-
 根 I-ANA
 治 I-ANA
 性 I-ANA
@@ -70651,9 +70564,9 @@ D O
 切 O
 除 O
 ： O
-  O
+
 - O
-  O
+
 溃 B-DIS
 疡 I-DIS
 型 I-DIS
@@ -70679,18 +70592,18 @@ N O
 合 O
 型 O
 ； O
-  O
+
 - O
-  O
+
 位 O
 于 O
 粘 O
 膜 O
 层 O
 ； O
-  O
+
 - O
-  O
+
 未 O
 见 O
 脉 O
@@ -70698,9 +70611,9 @@ N O
 癌 O
 栓 O
 ； O
-  O
+
 - O
-  O
+
 （ O
 食 B-ANA
 管 I-ANA
@@ -70720,9 +70633,9 @@ N O
 见 O
 癌 O
 ； O
-  O
+
 - O
-  O
+
 大 O
 网 O
 膜 O
@@ -70730,9 +70643,9 @@ N O
 见 O
 癌 O
 ； O
-  O
+
 - O
-  O
+
 淋 O
 巴 O
 结 O
@@ -70861,9 +70774,9 @@ B O
 0 O
 ） O
 ； O
-  O
+
 - O
-  O
+
 ， O
 
 肿 O
@@ -70962,7 +70875,6 @@ T I-RAY
 腹 B-RAY
 盆 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -70989,12 +70901,12 @@ T I-RAY
 - O
 1 O
 5 O
-  O
+
 C O
 1 O
 2 O
 5 O
-  O
+
 7 O
 6 O
 . O
@@ -71625,7 +71537,6 @@ D O
 腹 B-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 : O
@@ -73838,7 +73749,7 @@ P O
 病 O
 理 O
 ( O
-  O
+
 2 O
 0 O
 1 O
@@ -74035,7 +73946,7 @@ S O
 ， O
 
 : O
-  O
+
 铜 O
 绿 O
 假 O
@@ -74108,7 +74019,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -74133,7 +74044,7 @@ G O
 7 O
 5 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -74172,9 +74083,9 @@ D O
 轻 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -74234,9 +74145,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 病 O
 人 O
 自 O
@@ -74571,7 +74482,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -74584,12 +74495,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -74600,12 +74511,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -74660,7 +74571,7 @@ D O
 好 O
 ， O
 
-  O
+
 无 O
 乏 O
 力 O
@@ -74701,7 +74612,7 @@ D O
 现 O
 明 O
 显 O
-  O
+
 腹 B-ANA
 痛 O
 、 O
@@ -75856,14 +75767,14 @@ M O
 切 O
 除 O
 面 O
-  O
+
 未 O
 查 O
 见 O
 癌 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -75921,7 +75832,7 @@ M O
 癌 O
 。 O
 
-  O
+
 ， O
 
 免 O
@@ -76014,9 +75925,9 @@ T I-RAY
 转 O
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -76139,9 +76050,9 @@ T I-RAY
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -79799,7 +79710,7 @@ M O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -79856,7 +79767,7 @@ M O
 癌 O
 。 O
 
-  O
+
 ， O
 
 免 O
@@ -79909,7 +79820,7 @@ S O
 + O
 ) O
 、 O
-  O
+
 S O
 Y O
 N O
@@ -80152,32 +80063,32 @@ R O
 ( O
 - O
 ) O
-  O
+
 P O
 R O
 ( O
 - O
 ) O
-  O
+
 C O
 R O
 ( O
 - O
 ) O
-  O
+
 C O
 K O
 ( O
 - O
 ) O
-  O
+
 P O
 1 O
 6 O
 ( O
 - O
 ) O
-  O
+
 N O
 A O
 P O
@@ -80208,14 +80119,14 @@ P O
 ( O
 - O
 ) O
-  O
+
 C O
 E O
 A O
 ( O
 + O
 ) O
-  O
+
 W O
 T O
 - O
@@ -80362,7 +80273,7 @@ G O
 1 O
 - O
 9 O
-  O
+
 在 O
 我 O
 院 O
@@ -80379,10 +80290,10 @@ G O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
-  O
+
 + O
 顺 B-MED
 铂 I-MED
@@ -80390,7 +80301,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 - O
@@ -81447,7 +81358,7 @@ B O
 1 O
 + O
 ) O
-  O
+
 D O
 2 O
 - O
@@ -81456,14 +81367,14 @@ D O
 ( O
 - O
 ) O
-  O
+
 C O
 E O
 A O
 ( O
 + O
 ) O
-  O
+
 C O
 K O
 2 O
@@ -81471,14 +81382,14 @@ K O
 ( O
 + O
 ) O
-  O
+
 C O
 K O
 7 O
 ( O
 - O
 ) O
-  O
+
 K O
 I O
 - O
@@ -81491,7 +81402,7 @@ I O
 % O
 + O
 ) O
-  O
+
 C O
 D O
 3 O
@@ -81535,16 +81446,16 @@ X O
 ： O
 艾 B-MED
 恒 I-MED
-  O
+
 2 O
 0 O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
-  O
+
 静 O
 点 O
 ， O
@@ -81559,7 +81470,7 @@ D O
 0 O
 M O
 G O
-  O
+
 日 O
 二 O
 次 O
@@ -81924,9 +81835,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 起 O
@@ -82202,7 +82113,7 @@ C O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -82215,7 +82126,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ） O
@@ -82249,7 +82160,7 @@ C O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -82260,7 +82171,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ） O
@@ -82294,7 +82205,7 @@ C O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -82305,7 +82216,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ） O
@@ -82425,7 +82336,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -82516,11 +82426,9 @@ D O
 4 I-ANA
 枚 I-ANA
 ， I-ANA
-
 2 I-ANA
 1 I-ANA
 ， I-ANA
-
 枚 I-ANA
 转 I-ANA
 移 I-ANA
@@ -82812,7 +82720,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -82820,12 +82728,12 @@ D O
 爱 B-MED
 斯 I-MED
 万 I-MED
-  O
+
 6 O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
@@ -84661,7 +84569,7 @@ M O
 除 O
 ： O
 - O
-  O
+
 中 B-DIS
 分 I-DIS
 化 I-DIS
@@ -84685,7 +84593,7 @@ C O
 M O
 ； O
 - O
-  O
+
 可 O
 见 O
 脉 O
@@ -84699,7 +84607,7 @@ M O
 犯 O
 ； O
 - O
-  O
+
 癌 O
 组 O
 织 O
@@ -84720,7 +84628,7 @@ M O
 节 O
 ； O
 - O
-  O
+
 （ O
 近 O
 端 O
@@ -84737,7 +84645,7 @@ M O
 癌 O
 ； O
 - O
-  O
+
 淋 B-ANA
 巴 I-ANA
 结 I-ANA
@@ -84754,7 +84662,6 @@ M O
 1 I-ANA
 3 I-ANA
 ， I-ANA
-
 直 I-ANA
 肠 I-ANA
 下 I-ANA
@@ -84778,7 +84685,7 @@ M O
 外 O
 ； O
 - O
-  O
+
 ， O
 
 肿 O
@@ -85699,7 +85606,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -85713,7 +85620,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -85728,7 +85635,7 @@ D O
 2 O
 5 O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -85739,7 +85646,7 @@ D O
 7 O
 5 O
 G O
-  O
+
 输 O
 液 O
 泵 O
@@ -85930,7 +85837,7 @@ A O
 F O
 P O
 : O
-  O
+
 6 O
 4 O
 2 O
@@ -85994,7 +85901,6 @@ I I-OPE
 肝 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -86247,7 +86153,7 @@ A B-LAB
 F I-LAB
 P I-LAB
 : O
-  O
+
 1 O
 3 O
 6 O
@@ -86271,7 +86177,6 @@ L O
 腹 B-RAY
 部 I-RAY
 ， I-RAY
-
 C I-RAY
 T I-RAY
 ： O
@@ -86867,7 +86772,6 @@ M O
 1 I-ANA
 3 I-ANA
 ， I-ANA
-
 结 I-ANA
 肠 I-ANA
 中 I-ANA
@@ -86905,7 +86809,7 @@ M O
 果 O
 显 O
 示 O
-  O
+
 C O
 D O
 4 O
@@ -88017,7 +87921,7 @@ N O
 0 O
 M O
 0 O
-  O
+
 I O
 I O
 A O
@@ -88303,7 +88207,7 @@ T I-DIS
 及 O
 . O
 
-  O
+
 检 O
 出 O
 小 B-ANA
@@ -88325,7 +88229,7 @@ T I-DIS
 转 O
 移 O
 ; O
-  O
+
 检 O
 出 O
 大 B-ANA
@@ -88344,7 +88248,7 @@ T I-DIS
 转 O
 移 O
 ; O
-  O
+
 检 O
 出 O
 幽 B-ANA
@@ -88364,7 +88268,7 @@ T I-DIS
 转 O
 移 O
 ; O
-  O
+
 检 O
 出 O
 幽 B-ANA
@@ -88384,7 +88288,7 @@ T I-DIS
 转 O
 移 O
 ; O
-  O
+
 另 O
 送 O
 1 O
@@ -88404,7 +88308,7 @@ T I-DIS
 转 O
 移 O
 ; O
-  O
+
 另 O
 送 O
 切 O
@@ -90338,7 +90242,6 @@ I I-DIS
 I I-DIS
 级 I-DIS
 ， I-DIS
-
 少 I-DIS
 部 I-DIS
 分 I-DIS
@@ -91224,7 +91127,7 @@ M O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 （ O
@@ -91242,7 +91145,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 （ O
@@ -91271,7 +91174,7 @@ G O
 
 0 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -91300,10 +91203,10 @@ D O
 诊 O
 。 O
 
-  O
-  O
-  O
-  O
+
+
+
+
 患 O
 者 O
 院 O
@@ -91973,7 +91876,7 @@ N O
 M O
 0 O
 ) O
-  O
+
 。 O
 
 术 O
@@ -92041,9 +91944,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 本 O
@@ -92060,7 +91963,7 @@ U O
 常 O
 ， O
 
-  O
+
 神 O
 志 O
 清 O
@@ -93247,7 +93150,7 @@ N O
 X O
 M O
 1 O
-  O
+
 。 O
 
 术 O
@@ -93348,9 +93251,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 发 O
@@ -93361,7 +93264,7 @@ U O
 
 神 O
 志 O
-  O
+
 清 O
 晰 O
 ， O
@@ -94095,7 +93998,7 @@ M O
 癌 O
 栓 O
 ； O
-  O
+
 淋 O
 巴 O
 结 O
@@ -94112,9 +94015,9 @@ M O
 4 O
 ） O
 ； O
-  O
+
 - O
-  O
+
 环 O
 周 O
 切 O
@@ -94142,7 +94045,7 @@ M O
 见 O
 癌 O
 ； O
-  O
+
 ， O
 
 肿 O
@@ -94232,7 +94135,6 @@ B O
 肿 I-DIS
 物 I-DIS
 ， I-DIS
-
 恶 I-DIS
 性 I-DIS
 待 I-DIS
@@ -95363,7 +95265,7 @@ V O
 M O
 A O
 X O
-  O
+
 4 O
 . O
 
@@ -96564,7 +96466,6 @@ I I-OPE
 I I-OPE
 式 I-OPE
 ， I-OPE
-
 D I-OPE
 2 I-OPE
 ) I-OPE
@@ -97947,7 +97848,7 @@ R O
 后 I-DIS
 化 O
 疗 O
-  O
+
 ” O
 收 O
 入 O
@@ -98453,7 +98354,7 @@ I O
 ） O
 。 O
 
-  O
+
 术 O
 后 O
 恢 O
@@ -98775,7 +98676,7 @@ M O
 癌 I-DIS
 。 O
 
-  O
+
 胃 B-ANA
 型 I-ANA
 粘 I-ANA
@@ -99064,7 +98965,6 @@ Y I-OPE
 胃 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 食 I-DIS
 管 I-DIS
@@ -99779,7 +99679,6 @@ M O
 管 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 食 I-DIS
 管 I-DIS
@@ -100144,7 +100043,6 @@ I I-DIS
 底 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 食 I-DIS
 管 I-DIS
@@ -100976,7 +100874,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -100989,7 +100887,7 @@ D O
 
 3 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -100999,7 +100897,7 @@ D O
 - I-MED
 F I-MED
 U I-MED
-  O
+
 0 O
 . O
 
@@ -101007,7 +100905,7 @@ U I-MED
 2 O
 5 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -101021,10 +100919,10 @@ D O
 - I-MED
 F I-MED
 U I-MED
-  O
+
 1 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -101066,7 +100964,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -101079,7 +100977,7 @@ D O
 
 3 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -101089,13 +100987,13 @@ D O
 - I-MED
 F I-MED
 U I-MED
-  O
+
 0 O
 . O
 
 7 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -101109,10 +101007,10 @@ D O
 - I-MED
 F I-MED
 U I-MED
-  O
+
 1 O
 G O
-  O
+
 D O
 1 O
 ~ O
@@ -101740,7 +101638,6 @@ B O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 溃 I-DIS
 疡 I-DIS
 型 I-DIS
@@ -101908,14 +101805,12 @@ M O
 肠 I-DIS
 癌 I-DIS
 ， I-DIS
-
 溃 I-DIS
 疡 I-DIS
 浸 I-DIS
 润 I-DIS
 型 I-DIS
 ， I-DIS
-
 中 I-DIS
 分 I-DIS
 化 I-DIS
@@ -102036,7 +101931,7 @@ C O
 D O
 X O
 2 O
-  O
+
 > O
 5 O
 0 O
@@ -102315,7 +102210,6 @@ I I-DIS
 I I-DIS
 型 I-DIS
 ， I-DIS
-
 P I-DIS
 T I-DIS
 3 I-DIS
@@ -102325,7 +102219,6 @@ A I-DIS
 M I-DIS
 0 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -102386,33 +102279,33 @@ X O
 0 O
 M O
 G O
-  O
+
 I O
 V O
 D O
 R O
 I O
 P O
-  O
+
 D O
 1 O
 + O
 S B-MED
 - I-MED
 1 I-MED
-  O
+
 6 O
 0 O
 M O
 G O
-  O
+
 P O
 O O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -102550,7 +102443,6 @@ B I-DIS
 M I-DIS
 1 I-DIS
 ， I-DIS
-
 I I-DIS
 V I-DIS
 期 I-DIS
@@ -102588,14 +102480,14 @@ X O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 P O
 O O
-  O
+
 D O
 1 O
 - O
@@ -102606,20 +102498,20 @@ D O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
 M O
 G O
-  O
+
 I O
 V O
 D O
 R O
 I O
 P O
-  O
+
 Q O
 3 O
 W O
@@ -103335,7 +103227,7 @@ I O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -103348,12 +103240,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -103364,12 +103256,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -103802,7 +103694,6 @@ I I-DIS
 I I-DIS
 期 I-DIS
 ， I-DIS
-
 I I-DIS
 级 I-DIS
 ) I-DIS
@@ -103874,7 +103765,7 @@ I I-DIS
 - O
 1 O
 4 O
-  O
+
 在 O
 全 O
 麻 O
@@ -103956,7 +103847,6 @@ I I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -103982,7 +103872,7 @@ M O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -104054,7 +103944,7 @@ H O
 + O
 ） O
 、 O
-  O
+
 M O
 S O
 H O
@@ -104149,7 +104039,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 ， O
@@ -104172,7 +104062,7 @@ G O
 
 8 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -104441,9 +104331,9 @@ D O
 炎 I-DIS
 。 O
 
-  O
-  O
-  O
+
+
+
 院 O
 外 O
 期 O
@@ -104547,9 +104437,9 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -105238,7 +105128,6 @@ G O
 肠 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 大 I-DIS
 肠 I-DIS
@@ -105599,7 +105488,6 @@ M O
 界 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 大 I-DIS
 肠 I-DIS
@@ -106187,7 +106075,6 @@ N I-OPE
 段 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 肠 I-DIS
 溃 I-DIS
@@ -107292,7 +107179,6 @@ G O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -107338,7 +107224,7 @@ N I-DIS
 
 L O
 N O
-  O
+
 1 O
 6 O
 / O
@@ -107420,7 +107306,7 @@ X O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
@@ -107435,7 +107321,7 @@ G O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
@@ -107972,7 +107858,6 @@ S I-OPE
 部 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 体 I-DIS
@@ -108524,7 +108409,6 @@ M O
 壁 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 结 I-DIS
 肠 I-DIS
@@ -108955,7 +108839,6 @@ Y I-OPE
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 L I-DIS
 A I-DIS
 U I-DIS
@@ -109056,7 +108939,7 @@ C O
 期 O
 。 O
 
-  O
+
 现 O
 患 O
 者 O
@@ -109701,7 +109584,6 @@ B I-DIS
 1 I-DIS
 期 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 级 I-DIS
@@ -109846,7 +109728,6 @@ I I-DIS
 胃 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 体 I-DIS
@@ -110339,7 +110220,7 @@ D O
 持 O
 治 O
 疗 O
-  O
+
 ， O
 
 恢 O
@@ -110384,7 +110265,7 @@ M O
 一 O
 断 O
 端 O
-  O
+
 1 O
 2 O
 C O
@@ -110416,7 +110297,7 @@ C O
 M O
 ， O
 
-  O
+
 溃 O
 疡 O
 深 O
@@ -110492,9 +110373,9 @@ X O
 C O
 M O
 ； O
-  O
+
 - O
-  O
+
 侵 O
 至 O
 固 O
@@ -110502,9 +110383,9 @@ M O
 肌 O
 层 O
 ； O
-  O
+
 - O
-  O
+
 肿 O
 瘤 O
 缓 O
@@ -110515,7 +110396,7 @@ M O
 0 O
 ％ O
 ； O
-  O
+
 未 O
 见 O
 脉 O
@@ -110523,7 +110404,7 @@ M O
 癌 O
 栓 O
 ； O
-  O
+
 双 O
 端 O
 切 O
@@ -110537,7 +110418,7 @@ M O
 见 O
 癌 O
 ； O
-  O
+
 淋 O
 巴 O
 结 O
@@ -110551,9 +110432,9 @@ M O
 2 O
 1 O
 ； O
-  O
+
 - O
-  O
+
 ， O
 
 肿 O
@@ -110803,7 +110684,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -110814,11 +110695,11 @@ D O
 片 I-MED
 3 O
 片 O
-  O
+
 2 O
 / O
 日 O
-  O
+
 D O
 1 O
 - O
@@ -111016,7 +110897,6 @@ D O
 切 I-DIS
 除 I-DIS
 ， I-DIS
-
 毕 I-DIS
 I I-DIS
 式 I-DIS
@@ -111029,7 +110909,7 @@ I I-DIS
 病 O
 理 O
 （ O
-  O
+
 2 O
 0 O
 1 O
@@ -111055,7 +110935,6 @@ I I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 溃 I-DIS
 疡 I-DIS
 型 I-DIS
@@ -112461,7 +112340,7 @@ C O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -112474,12 +112353,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -112490,12 +112369,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -112570,7 +112449,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 、 O
@@ -112586,12 +112465,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -112602,12 +112481,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -112873,7 +112752,6 @@ N I-OPE
 肠 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 直 I-DIS
 肠 I-DIS
@@ -113772,12 +113650,12 @@ I I-DIS
 
 L O
 N O
-  O
+
 8 O
 / O
 3 O
 0 O
-  O
+
 ( O
 + O
 ) O
@@ -114117,7 +113995,7 @@ N O
 1 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -114187,7 +114065,7 @@ M O
 G O
 D O
 1 O
-  O
+
 + O
 亚 B-MED
 叶 I-MED
@@ -114198,24 +114076,24 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
 氟 I-MED
 1 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 脉 O
 滴 O
@@ -116307,7 +116185,7 @@ S I-OPE
 
 L O
 N O
-  O
+
 1 O
 / O
 1 O
@@ -116330,7 +116208,7 @@ N O
 1 O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -117458,7 +117336,7 @@ A I-LAB
 . O
 
 1 O
-  O
+
 U O
 / O
 L O
@@ -117469,13 +117347,13 @@ A I-LAB
 1 I-LAB
 2 I-LAB
 5 I-LAB
-  O
+
 4 O
 9 O
 . O
 
 6 O
-  O
+
 U O
 / O
 L O
@@ -117961,7 +117839,6 @@ M O
 肠 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 大 I-DIS
 肠 I-DIS
@@ -118924,10 +118801,10 @@ D O
 院 O
 。 O
 
-  O
-  O
-  O
-  O
+
+
+
+
 发 O
 病 O
 以 O
@@ -119700,7 +119577,7 @@ M O
 0 O
 G O
 3 O
-  O
+
 I O
 I O
 A O
@@ -119825,7 +119702,6 @@ A O
 胃 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 窦 I-DIS
@@ -120816,7 +120692,7 @@ X O
 / O
 0 O
 ） O
-  O
+
 ， O
 
 肿 O
@@ -120833,9 +120709,9 @@ N O
 1 O
 A O
 ； O
-  O
+
 - O
-  O
+
 ， O
 
 免 O
@@ -121045,7 +120921,6 @@ U O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -121177,7 +121052,7 @@ N O
 0 O
 M O
 1 O
-  O
+
 I O
 V O
 期 O
@@ -121817,9 +121692,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 发 O
@@ -121830,7 +121705,7 @@ U O
 
 神 O
 志 O
-  O
+
 清 O
 晰 O
 ， O
@@ -122417,7 +122292,6 @@ I I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 2 I-DIS
 0 I-DIS
 ％ I-DIS
@@ -122914,7 +122788,6 @@ N I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -123633,7 +123506,7 @@ N O
 B O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -123680,7 +123553,7 @@ C O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -123694,7 +123567,7 @@ G O
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
@@ -124047,7 +123920,7 @@ S O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -124060,12 +123933,12 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 + O
 替 B-MED
 加 I-MED
@@ -124076,12 +123949,12 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 2 O
 - O
 6 O
-  O
+
 静 O
 滴 O
 ， O
@@ -124948,7 +124821,6 @@ D I-OPE
 胃 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 窦 I-DIS
@@ -125388,7 +125260,6 @@ L O
 肠 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 结 I-DIS
 肠 I-DIS
@@ -126461,7 +126332,6 @@ T I-RAY
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 分 I-DIS
 化 I-DIS
 I I-DIS
@@ -126545,7 +126415,7 @@ I I-DIS
 乐 B-MED
 沙 I-MED
 定 I-MED
-  O
+
 2 O
 0 O
 0 O
@@ -126587,7 +126457,7 @@ L O
 替 B-MED
 加 I-MED
 氟 I-MED
-  O
+
 3 O
 . O
 
@@ -127349,7 +127219,6 @@ T I-RAY
 肝 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 肝 I-DIS
 中 I-DIS
@@ -127893,7 +127762,6 @@ M O
 胃 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 体 I-DIS
@@ -128467,7 +128335,7 @@ D O
 - O
 0 O
 5 O
-  O
+
 在 O
 我 O
 院 O
@@ -129652,7 +129520,7 @@ M O
 
 L O
 N O
-  O
+
 1 O
 / O
 1 O
@@ -130189,7 +130057,6 @@ N I-DIS
 M I-DIS
 0 I-DIS
 , I-DIS
-
 I I-DIS
 I I-DIS
 I I-DIS
@@ -130346,7 +130213,6 @@ X O
 肠 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 直 I-DIS
 肠 I-DIS
@@ -131063,9 +130929,9 @@ U O
 0 O
 0 O
 4 O
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 自 O
@@ -131199,7 +131065,6 @@ U O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -131232,7 +131097,7 @@ M O
 膜 O
 。 O
 
-  O
+
 双 O
 端 O
 切 O
@@ -131243,7 +131108,7 @@ M O
 癌 O
 。 O
 
-  O
+
 呈 O
 肠 O
 壁 O
@@ -131273,7 +131138,7 @@ M O
 移 O
 。 O
 
-  O
+
 中 O
 央 O
 组 O
@@ -131346,7 +131211,7 @@ X O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -131355,17 +131220,17 @@ D O
 达 I-MED
 2 O
 G O
-  O
+
 B O
 I O
 D O
-  O
+
 D O
 1 O
 - O
 1 O
 4 O
-  O
+
 ） O
 5 O
 次 O
@@ -131391,7 +131256,7 @@ D O
 0 O
 M O
 G O
-  O
+
 D O
 1 O
 + O
@@ -131404,7 +131269,7 @@ D O
 
 3 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -131415,7 +131280,7 @@ D O
 氟 I-MED
 1 O
 G O
-  O
+
 D O
 2 O
 - O
@@ -131471,7 +131336,7 @@ D O
 好 O
 ， O
 
-  O
+
 无 O
 乏 O
 力 O
@@ -131512,7 +131377,7 @@ D O
 现 O
 明 O
 显 O
-  O
+
 腹 B-ANA
 痛 O
 、 O
@@ -131666,7 +131531,6 @@ D O
 肠 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 肠 I-DIS
 隆 I-DIS
@@ -132860,7 +132724,6 @@ D I-OPE
 胃 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 体 I-DIS
@@ -133407,7 +133270,7 @@ N O
 B O
 M O
 0 O
-  O
+
 I O
 I O
 I O
@@ -133618,7 +133481,6 @@ R I-DIS
 E I-DIS
 N I-DIS
 ， I-DIS
-
 分 I-DIS
 型 I-DIS
 ： I-DIS
@@ -133724,7 +133586,7 @@ R O
 （ O
 0 O
 ） O
-  O
+
 ” O
 术 O
 后 O
@@ -133802,7 +133664,7 @@ R O
 0 O
 M O
 G O
-  O
+
 B O
 I O
 D O
@@ -133811,7 +133673,7 @@ D O
 沙 I-MED
 利 I-MED
 铂 I-MED
-  O
+
 1 O
 5 O
 0 O
@@ -134525,7 +134387,6 @@ D I-OPE
 胃 I-DIS
 ） I-DIS
 ， I-DIS
-
 ： I-DIS
 胃 I-DIS
 窦 I-DIS
@@ -135800,7 +135661,6 @@ I O
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 弥 I-DIS
 漫 I-DIS
 浸 I-DIS
@@ -136624,7 +136484,6 @@ M O
 胞 I-DIS
 瘤 I-DIS
 ， I-DIS
-
 下 I-DIS
 皮 I-DIS
 型 I-DIS
@@ -136768,9 +136627,9 @@ U I-MED
 疗 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -136868,7 +136727,6 @@ C I-DIS
 ： O
 B B-RAY
 ， I-RAY
-
 超 I-RAY
 发 O
 现 O
@@ -136929,7 +136787,6 @@ M O
 胞 I-DIS
 瘤 I-DIS
 ， I-DIS
-
 下 I-DIS
 皮 I-DIS
 型 I-DIS
@@ -137018,7 +136875,7 @@ I I-RAY
 1 O
 1 O
 ) O
-  O
+
 脑 B-RAY
 部 I-RAY
 M I-RAY
@@ -137060,7 +136917,7 @@ T I-RAY
 0 O
 7 O
 ) O
-  O
+
 肝 B-DIS
 母 I-DIS
 细 I-DIS
@@ -137101,7 +136958,7 @@ T I-RAY
 0 O
 7 O
 ) O
-  O
+
 左 B-ANA
 肺 I-ANA
 尖 I-ANA
@@ -137857,7 +137714,6 @@ M O
 肠 I-DIS
 ) I-DIS
 ， I-DIS
-
 ： I-DIS
 结 I-DIS
 肠 I-DIS
@@ -138534,7 +138390,6 @@ M I-OPE
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 隆 I-DIS
 起 I-DIS
 型 I-DIS
@@ -138712,7 +138567,7 @@ T I-RAY
 
 D O
 T O
-  O
+
 5 O
 0 O
 0 O
@@ -138842,9 +138697,9 @@ M I-DIS
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 近 O
 期 O
 患 O
@@ -139091,7 +138946,6 @@ M O
 化 I-DIS
 ） I-DIS
 ， I-DIS
-
 浸 I-DIS
 润 I-DIS
 溃 I-DIS
@@ -139174,9 +139028,9 @@ M O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 于 O
@@ -139257,9 +139111,9 @@ M O
 院 O
 。 O
 
-  O
-  O
-  O
+
+
+
 患 O
 者 O
 现 O
@@ -139461,19 +139315,16 @@ M O
 层 I-DIS
 ） I-DIS
 ， I-DIS
-
 溃 I-DIS
 疡 I-DIS
 型 I-DIS
 ， I-DIS
-
 中 I-DIS
 分 I-DIS
 化 I-DIS
 腺 I-DIS
 癌 I-DIS
 ， I-DIS
-
 I I-DIS
 I I-DIS
 级 I-DIS
