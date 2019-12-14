@@ -24,7 +24,7 @@ def GenerateData(json_path, train_path, validate_path):
     tag_map = {'疾病和诊断': 4, '影像检查': 2, '实验室检验': 1, '药物': 5, '手术': 3, '解剖部位': 6}
     _max_sentence = 0
     num = 0
-    label_list = ['B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
+    label_list = ['O','B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
                   'I-MED', 'B-ANA', 'I-ANA']
     count = 0
     with open(json_path, encoding='utf-8') as f:
@@ -47,7 +47,7 @@ def GenerateData(json_path, train_path, validate_path):
                 for i in range(ini_pos, start_pos):
                     sentence_cur += 1
                     datas[choose_index] += original_text[i]
-                    datas[choose_index] += ' 0\n'
+                    datas[choose_index] += ' O\n'
                     if original_text[i] == '。' or original_text[i] == '，' or original_text[i] == ',' or original_text[i] == '.':
                         datas[choose_index] += '\n'
                         if sentence_cur - start_sentence >= 80:
@@ -77,7 +77,7 @@ def GenerateData(json_path, train_path, validate_path):
                 ini_pos = end_pos
             for i in range(end_pos, len(original_text)):
                 datas[choose_index] += original_text[i]
-                datas[choose_index] += ' 0\n'
+                datas[choose_index] += ' O\n'
                 if original_text[i] == '。' or original_text[i] == '，'or original_text[i] == ',' or original_text[i] == '.':
                     datas[choose_index] += '\n'
                     if sentence_cur - start_sentence >= 80:
