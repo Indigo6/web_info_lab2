@@ -27,7 +27,6 @@ def GenerateData(json_path, train_path, validate_path):
         for line in f:  # every line is a json object
             ini_pos = 0
             count += 1
-            print(count)
             element = json.loads(line, encoding='utf-8')
             entities = element['entities']  # entity array
             original_text = element['originalText']
