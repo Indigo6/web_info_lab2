@@ -7,6 +7,8 @@ def PreProcessData(path):
     tags = []
     with open(path, encoding="utf-8") as data_file:
         for sentence in data_file.read().strip().split('\n\n'):
+            if sentence is '':
+                continue
             _sentence = ""
             tag = []
             for word in sentence.strip().split('\n'):
