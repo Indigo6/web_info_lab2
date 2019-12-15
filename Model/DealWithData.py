@@ -69,6 +69,8 @@ def GenerateData(json_path, train_path, validate_path):
                 tmpstr = ' ' + label_list[2*tag] + '\n'
                 sentence_cur += 1
                 for i in range(start_pos+1, end_pos):
+                    if original_text[i] == ' ' or original_text[i] == '\t':
+                        continue
                     datas[choose_index] += original_text[i]
                     datas[choose_index] += tmpstr
                     sentence_cur += 1
