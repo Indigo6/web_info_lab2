@@ -49,7 +49,8 @@ def GenerateData(json_path, train_path, validate_path):
                 for i in range(ini_pos, start_pos):
                     sentence_cur += 1
                     if original_text[i] == ' ' or original_text[i] == '\t':
-                        datas[choose_index] += '\n'
+                        if datas[choose_index][-1] != '\n':
+                            datas[choose_index] += '\n'
                         continue
                     datas[choose_index] += original_text[i]
                     datas[choose_index] += ' O\n'
@@ -75,7 +76,8 @@ def GenerateData(json_path, train_path, validate_path):
             # append remaining data
             for i in range(ini_pos, len(original_text)):
                 if original_text[i] == ' ' or original_text[i] == '\t':
-                    datas[choose_index] += '\n'
+                    if datas[choose_index][-1] != '\n':
+                        datas[choose_index] += '\n'
                     continue
                 datas[choose_index] += original_text[i]
                 datas[choose_index] += ' O\n'
