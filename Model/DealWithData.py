@@ -4,6 +4,7 @@ import csv
 import pdb
 import time
 import os
+import re
 
 
 def PreProcessData(path):
@@ -11,21 +12,32 @@ def PreProcessData(path):
     tags = []
     with open(path, encoding="utf-8") as data_file:
         for sentence in data_file.read().strip().split('\n\n'):
-            if sentence is '':
+            if sentence is '' or sentence is '\n':
                 continue
-            _sentence = ""
-            tag = []
-            for word in sentence.split('\n'):
-                if len(word) is 3:
-                    _sentence += word[0]
-                    tag.append(word[2])
-            sentences.append(_sentence)
-            tags.append(tag)
+            if len(sentence) >(256*3):  # 网络最长接受 256
+                shorter_sentences = sentence.split('， O')
+            else:
+                shorter_sentences = [sentence]
+            for sentence in shorter_sentences:
+                _sentence = ""
+                tag = []
+                if sentence is '' or sentence is '\n':
+                    continue
+                words = sentence.strip().split('\n')
+                if '，' in words[0]:  # 数据清洗
+                    words = words[1:]
+                for word in words:
+                    if len(word) is 3:
+                        _sentence += word[0]
+                        tag.append(word[2])
+                if(len(_sentence)>2):  # 数据清洗
+                    sentences.append(_sentence)
+                    tags.append(tag)
     data = (sentences, tags)
     return data
 
 
-def GenerateData(json_path, train_path, validate_path):
+def GenerateData(json_path, train_path, validate_path, only_period):
     datas = ["", ""]  # first for training data, second for validate data
     tag_map = {'疾病和诊断': 4, '影像检查': 2, '实验室检验': 1, '药物': 5, '手术': 3, '解剖部位': 6}
     _max_sentence = 0
@@ -33,6 +45,10 @@ def GenerateData(json_path, train_path, validate_path):
     label_list = ['O', 'B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
                   'I-MED', 'B-ANA', 'I-ANA']
     count = 0
+    if only_period:
+        split_sig = ['。']
+    else:
+        split_sig = ['。', '，', ',', '.']
     with open(json_path, encoding='utf-8') as f:
         for line in f:  # every line is a json object
             start_sentence = 0
@@ -58,10 +74,9 @@ def GenerateData(json_path, train_path, validate_path):
                         continue
                     datas[choose_index] += original_text[i]
                     datas[choose_index] += ' O\n'
-                    if original_text[i] == '。' or original_text[i] == '，' or original_text[i] == ',' or original_text[
-                        i] == '.':
+                    if original_text[i] in split_sig:
                         datas[choose_index] += '\n'
-                        if sentence_cur - start_sentence >= 80:
+                        if sentence_cur - start_sentence >= 256:
                             num += 1
                             _max_sentence = sentence_cur - start_sentence
                             print(_max_sentence)
@@ -88,10 +103,9 @@ def GenerateData(json_path, train_path, validate_path):
                     continue
                 datas[choose_index] += original_text[i]
                 datas[choose_index] += ' O\n'
-                if original_text[i] == '。' or original_text[i] == '，' or original_text[i] == ',' or original_text[
-                    i] == '.':
+                if original_text[i] in split_sig:
                     datas[choose_index] += '\n'
-                    if sentence_cur - start_sentence >= 80:
+                    if sentence_cur - start_sentence >= 256:
                         num += 1
                         _max_sentence = sentence_cur - start_sentence
                         print(_max_sentence)
@@ -175,4 +189,9 @@ def GenerateSubmit(model, test_path, submit_path):
 
 # test GenerateData
 if __name__ == '__main__':
-    print('OK')
+    json_path = '../Data/train.json'
+    only_period = True
+    train_path = '../Data/train.txt'
+    validate_path = '../Data/validate.txt'
+    max_length = GenerateData(json_path, train_path, validate_path, only_period)
+    print(max_length)

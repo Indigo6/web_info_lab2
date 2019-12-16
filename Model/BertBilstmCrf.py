@@ -10,6 +10,7 @@ from keras_bert import load_trained_model_from_checkpoint
 from keras_bert import Tokenizer
 import matplotlib.pyplot as plt
 import pdb
+import pickle
 
 class bert_bilstm_crf:
     def __init__(self, max_seq_length, batch_size, epochs, lstm_dim, label_path, save_model_path):
@@ -112,8 +113,10 @@ class bert_bilstm_crf:
                        validation_data=[[input_test_labels, input_test_types], result_test],
                        verbose=1,
                        shuffle=True)
-        self.model.save(self.save_model_path)
-        self.model_improve_process(history)
+        self.model.save(self.save_model_path)    
+        with open('trainHistoryDict', 'wb') as file_pi:
+            pickle.dump(history.history, file_pi)
+        # self.model_improve_process(history)
         return
 
     #预测结果
