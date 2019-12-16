@@ -5,7 +5,7 @@ import json
 
 if __name__ == "__main__":
     in_web = True
-    if_train = True
+    if_train = False
     if_longer = True
     # 数据
     if not in_web:
@@ -35,13 +35,14 @@ if __name__ == "__main__":
         label_path = './Parameter/tag_dict.txt'
     else:
         label_path = './Parameter/tag_dict2.txt'
-    model = bert_bilstm_crf(max_seq_length, batch_size, epochs,
-                 lstmDim, label_path, save_model_path)
+    # model = bert_bilstm_crf(max_seq_length, batch_size, epochs,
+    #              lstmDim, label_path, save_model_path)
     if if_train:
         model.TrainModel(train_data, test_data)
 
     # 测试
     if in_web:
+        model = None
         DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')
     while 1:
         sentence = input('please input sentence:\n')

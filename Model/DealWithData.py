@@ -6,6 +6,8 @@ import time
 import os
 import re
 
+label_list = ['O', 'B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
+              'I-MED', 'B-ANA', 'I-ANA']
 
 def PreProcessData(path):
     sentences = []
@@ -26,10 +28,19 @@ def PreProcessData(path):
                 words = sentence.strip().split('\n')
                 if '，' in words[0]:  # 数据清洗
                     words = words[1:]
-                for word in words:
-                    if len(word) is 3:
-                        _sentence += word[0]
-                        tag.append(word[2])
+                i = 0
+                words_num = len(words)
+                while i < words_num:
+                    word = words[i]
+                    if len(word) >= 3:
+                        if word[2:] not in label_list:  # 数据清洗，处理'\n  tag'的数据
+                            i += 1
+                            _sentence += words[i][0]
+                            tag.append(word)
+                        else:
+                            _sentence += word[0]
+                            tag.append(word[2:])
+                    i += 1
                 if(len(_sentence)>2):  # 数据清洗
                     sentences.append(_sentence)
                     tags.append(tag)
@@ -42,8 +53,6 @@ def GenerateData(json_path, train_path, validate_path, only_period):
     tag_map = {'疾病和诊断': 4, '影像检查': 2, '实验室检验': 1, '药物': 5, '手术': 3, '解剖部位': 6}
     _max_sentence = 0
     num = 0
-    label_list = ['O', 'B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
-                  'I-MED', 'B-ANA', 'I-ANA']
     count = 0
     if only_period:
         split_sig = ['。']
@@ -119,15 +128,24 @@ def GenerateData(json_path, train_path, validate_path, only_period):
     return _max_sentence
 
 
-def MySplit(s, delimiters):
-    last_pos = 0
-    cur_pos = 0
+def MySplit(s, delimiters, start=0):
+    last_pos = start
+    cur_pos = start
     res = []
-    while cur_pos < len(s):
+    while(s[last_pos] in delimiters):
+        last_pos += 1
+    length = len(s)
+    while cur_pos < length:
         if s[cur_pos] in delimiters:
             if cur_pos > last_pos:
-                res.append((s[last_pos:cur_pos], last_pos))
+                if (cur_pos +1 - last_pos) > 256:
+                    temp_res = MySplit(s[last_pos:cur_pos+1], ['，', '。', ',', '.', ';', '；'], last_pos)
+                    res.extend(temp_res)
+                else:
+                    res.append((s[last_pos:cur_pos+1], last_pos))
             last_pos = cur_pos + 1
+            while(last_pos < length and s[last_pos] in delimiters):
+                last_pos += 1
         cur_pos += 1
     return res
 
@@ -163,29 +181,29 @@ def GenerateSubmit(model, test_path, submit_path):
                 test_element = json.loads(line, encoding='utf-8')
                 original_text = test_element['originalText']
                 text_id = test_element['textId']
-                delimiters = ['，', '。', ',', '.', ';', '；']
-                sentences_with_index = MySplit(original_text, delimiters)
-                for sentence in sentences_with_index:
-                   # print(sentence[0])
-                    tags = model.ModelPredict(sentence[0])
-                   # print(tags)
-                    i = 0
-                    while i < len(tags):
-                        if tags[i] == 'O':
-                            i += 1
-                            continue
-                        j = i
-                        label = label_map[tags[i]]
-                        j += 1
-                        while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
-                            j += 1
-                        if tags[i][0] == 'I':
-                            start_pos = sentence[1] + i - 1
-                        else:
-                            start_pos = sentence[1] + i
-                        end_pos = sentence[1] + j
-                        csv_writer.writerow([text_id, label, start_pos, end_pos])
-                        i = j
+                sentences_with_index = MySplit(original_text, ['。'])
+                print('test')
+                # for sentence in sentences_with_index:
+                #    # print(sentence[0])
+                #     tags = model.ModelPredict(sentence[0])
+                #    # print(tags)
+                #     i = 0
+                #     while i < len(tags):
+                #         if tags[i] == 'O':
+                #             i += 1
+                #             continue
+                #         j = i
+                #         label = label_map[tags[i]]
+                #         j += 1
+                #         while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
+                #             j += 1
+                #         if tags[i][0] == 'I':
+                #             start_pos = sentence[1] + i - 1
+                #         else:
+                #             start_pos = sentence[1] + i
+                #         end_pos = sentence[1] + j
+                #         csv_writer.writerow([text_id, label, start_pos, end_pos])
+                #         i = j
 
 # test GenerateData
 if __name__ == '__main__':

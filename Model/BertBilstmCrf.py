@@ -87,6 +87,10 @@ class bert_bilstm_crf:
         for line in text:
             tag = [0]
             for item in line:
+                if item.strip() not in self.label:
+                    print(text)
+                    print(line)
+                    print(item)
                 tag.append(int(self.label[item.strip()]))
             tag.append(0)
             tags.append(tag)
@@ -102,6 +106,7 @@ class bert_bilstm_crf:
         #训练集
         # pdb.set_trace()
         input_train_labels, input_train_types = self.PreProcessInputData(input_train)
+
         result_train = self.PreProcessOutputData(result_train)
         #测试集
         input_test_labels, input_test_types = self.PreProcessInputData(input_test)
