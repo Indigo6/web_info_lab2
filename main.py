@@ -46,12 +46,13 @@ if __name__ == "__main__":
     #     tag = model.ModelPredict(sentence)
     #     print(tag)
     #     sentence = input('please input sentence:\n')
-    print(save_model_path)
+    # print(save_model_path)
     model.model.load_weights(save_model_path)
-    # sentence = input('please input sentence:\n')
+    sentence = input('please input sentence:\n')
     # while sentence:
     #     tag = model.ModelPredict(sentence)
     #     print(tag)
     #     sentence = input('please input sentence:\n')
     if in_web:
-        DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')
+        # model = None
+        DealWithData.GenerateSubmit(model, './Data/test.json','./Data/submit.csv')

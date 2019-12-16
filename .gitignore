@@ -1,0 +1,11 @@
+Parameter/chinese*
+.idea
+keras_bert
+.vscode
+keras_bert
+*/__pycache__
+*/_ipynb_checkpoints
+main2.py
+*/DealWithData2.py
+*/submit.csv
+input_labeling.py

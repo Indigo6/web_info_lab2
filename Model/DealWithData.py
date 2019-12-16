@@ -132,20 +132,22 @@ def MySplit(s, delimiters, start=0):
     last_pos = start
     cur_pos = start
     res = []
-    while(s[last_pos] in delimiters):
+    while(s[last_pos] in ['，', '。', ',', '.', ';', '；']):
         last_pos += 1
+        cur_pos += 1
     length = len(s)
     while cur_pos < length:
         if s[cur_pos] in delimiters:
             if cur_pos > last_pos:
-                if (cur_pos +1 - last_pos) > 255:
-                    temp_res = MySplit(s[last_pos:cur_pos+1], ['，', '。', ',', '.', ';', '；'], last_pos)
+                if (cur_pos + 1 - last_pos) > 255:
+                    temp_res = MySplit(s[:cur_pos+1], ['，', '。', ',', '.', ';', '；'], last_pos)
                     res.extend(temp_res)
                 else:
                     res.append((s[last_pos:cur_pos+1], last_pos))
             last_pos = cur_pos + 1
-            while(last_pos < length and s[last_pos] in delimiters):
+            while(last_pos < length and s[last_pos] in ['，', '。', ',', '.', ';', '；']):
                 last_pos += 1
+                cur_pos += 1
         cur_pos += 1
     return res
 
@@ -177,7 +179,9 @@ def GenerateSubmit(model, test_path, submit_path):
                 # if count == 2:
                 #   break
                 elapsed = time.time() - time_start
-                print('[%d/600] Elapsed: %s' % (count, fmt_time(elapsed)))
+                eta = elapsed / count * (600-count)
+                print('[%d/600] Elapsed: %s, ETA>> %s' % 
+                        (count, fmt_time(elapsed), fmt_time(eta)))
                 test_element = json.loads(line, encoding='utf-8')
                 original_text = test_element['originalText']
                 text_id = test_element['textId']
