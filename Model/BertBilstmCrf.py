@@ -12,8 +12,10 @@ import matplotlib.pyplot as plt
 import pdb
 
 class bert_bilstm_crf:
-    def __init__(self, max_seq_length, batch_size, epochs, lstm_dim, label_path):
+    def __init__(self, max_seq_length, batch_size, epochs, lstm_dim, label_path, save_model_path):
+        # pdb.set_trace()
         self.label_path = label_path
+        self.save_model_path = save_model_path
         self.label = {}
         self._label = {}
         self.max_seq_length = max_seq_length
@@ -97,6 +99,7 @@ class bert_bilstm_crf:
         input_train, result_train = train_data
         input_test, result_test = test_data
         #训练集
+        # pdb.set_trace()
         input_train_labels, input_train_types = self.PreProcessInputData(input_train)
         result_train = self.PreProcessOutputData(result_train)
         #测试集
@@ -109,7 +112,7 @@ class bert_bilstm_crf:
                        validation_data=[[input_test_labels, input_test_types], result_test],
                        verbose=1,
                        shuffle=True)
-        self.model.save('keras_bert')
+        self.model.save(self.save_model_path)
         self.model_improve_process(history)
         return
 
@@ -128,12 +131,14 @@ class bert_bilstm_crf:
 
     def ModelPredict(self, sentence):
         labels, types = self.PreProcessInputData([sentence])
-        self.model.load_weights('keras_bert')
+        # pdb.set_trace()
+        self.model.load_weights(self.save_model_path)
         tags = self.model.predict([labels, types])[0]
         # pdb.set_trace()
         result = []
         for i in range(1, len(sentence) + 1):
             result.append(tags[i])
+        # pdb.set_trace()
         result = self.Vector2Id(result)
         tag = self.Id2Label(result)
         return tag
