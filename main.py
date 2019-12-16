@@ -18,16 +18,16 @@ if __name__ == "__main__":
     else:
         train_path = "./Data/train.txt"
         test_path = "./Data/validate.txt"
-        save_model_path = 'keras_bert_web'
+        save_model_path = 'keras_bert_web_256e21'
     if if_train:
         train_data = DealWithData.PreProcessData(train_path)
         test_data = DealWithData.PreProcessData(test_path)
 
     # 模型
     if if_longer:
-        max_seq_length = 256
+      max_seq_length = 256
     else:
-        max_seq_length = 80
+      max_seq_length = 80
     batch_size = 24
     epochs = 10
     lstmDim = 64
@@ -40,12 +40,18 @@ if __name__ == "__main__":
     if if_train:
         model.TrainModel(train_data, test_data)
 
-    # 测试
-    sentence = input('please input sentence:\n')
-    while sentence:
-        tag = model.ModelPredict(sentence)
-        print(tag)
-        sentence = input('please input sentence:\n')
+    # # 测试
+    # sentence = input('please input sentence:\n')
+    # while sentence:
+    #     tag = model.ModelPredict(sentence)
+    #     print(tag)
+    #     sentence = input('please input sentence:\n')
+    print(save_model_path)
+    model.model.load_weights(save_model_path)
+    # sentence = input('please input sentence:\n')
+    # while sentence:
+    #     tag = model.ModelPredict(sentence)
+    #     print(tag)
+    #     sentence = input('please input sentence:\n')
     if in_web:
-        model = None
         DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')

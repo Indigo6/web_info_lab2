@@ -140,7 +140,6 @@ class bert_bilstm_crf:
     def ModelPredict(self, sentence):
         labels, types = self.PreProcessInputData([sentence])
         # pdb.set_trace()
-        self.model.load_weights(self.save_model_path)
         tags = self.model.predict([labels, types])[0]
         # pdb.set_trace()
         result = []

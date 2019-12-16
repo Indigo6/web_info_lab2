@@ -138,7 +138,7 @@ def MySplit(s, delimiters, start=0):
     while cur_pos < length:
         if s[cur_pos] in delimiters:
             if cur_pos > last_pos:
-                if (cur_pos +1 - last_pos) > 256:
+                if (cur_pos +1 - last_pos) > 255:
                     temp_res = MySplit(s[last_pos:cur_pos+1], ['，', '。', ',', '.', ';', '；'], last_pos)
                     res.extend(temp_res)
                 else:
@@ -182,8 +182,9 @@ def GenerateSubmit(model, test_path, submit_path):
                 original_text = test_element['originalText']
                 text_id = test_element['textId']
                 sentences_with_index = MySplit(original_text, ['。'])
-                print('test')
                 for sentence in sentences_with_index:
+                    # if len(sentence[0]) > 255:
+                    #     print('%d is too long for mdoel, original sentence: %s' % (len(sentence[0]), sentence[0]))
                     # print(sentence[0])
                     tags = model.ModelPredict(sentence[0])
                     # print(tags)
@@ -197,10 +198,10 @@ def GenerateSubmit(model, test_path, submit_path):
                         j += 1
                         while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
                             j += 1
-                        if tags[i][0] == 'I':
-                            start_pos = sentence[1] + i - 1
-                        else:
-                            start_pos = sentence[1] + i
+                        # if tags[i][0] == 'I':
+                        #     start_pos = sentence[1] + i - 1
+                        # else:
+                        start_pos = sentence[1] + i
                         end_pos = sentence[1] + j
                         csv_writer.writerow([text_id, label, start_pos, end_pos])
                         i = j
