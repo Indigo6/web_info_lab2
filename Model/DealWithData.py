@@ -183,27 +183,27 @@ def GenerateSubmit(model, test_path, submit_path):
                 text_id = test_element['textId']
                 sentences_with_index = MySplit(original_text, ['。'])
                 print('test')
-                # for sentence in sentences_with_index:
-                #    # print(sentence[0])
-                #     tags = model.ModelPredict(sentence[0])
-                #    # print(tags)
-                #     i = 0
-                #     while i < len(tags):
-                #         if tags[i] == 'O':
-                #             i += 1
-                #             continue
-                #         j = i
-                #         label = label_map[tags[i]]
-                #         j += 1
-                #         while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
-                #             j += 1
-                #         if tags[i][0] == 'I':
-                #             start_pos = sentence[1] + i - 1
-                #         else:
-                #             start_pos = sentence[1] + i
-                #         end_pos = sentence[1] + j
-                #         csv_writer.writerow([text_id, label, start_pos, end_pos])
-                #         i = j
+                for sentence in sentences_with_index:
+                    # print(sentence[0])
+                    tags = model.ModelPredict(sentence[0])
+                    # print(tags)
+                    i = 0
+                    while i < len(tags):
+                        if tags[i] == 'O':
+                            i += 1
+                            continue
+                        j = i
+                        label = label_map[tags[i]]
+                        j += 1
+                        while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
+                            j += 1
+                        if tags[i][0] == 'I':
+                            start_pos = sentence[1] + i - 1
+                        else:
+                            start_pos = sentence[1] + i
+                        end_pos = sentence[1] + j
+                        csv_writer.writerow([text_id, label, start_pos, end_pos])
+                        i = j
 
 # test GenerateData
 if __name__ == '__main__':

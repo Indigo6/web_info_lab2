@@ -25,9 +25,9 @@ if __name__ == "__main__":
 
     # 模型
     if if_longer:
-      max_seq_length = 256
+        max_seq_length = 256
     else:
-      max_seq_length = 80
+        max_seq_length = 80
     batch_size = 24
     epochs = 10
     lstmDim = 64
@@ -35,16 +35,17 @@ if __name__ == "__main__":
         label_path = './Parameter/tag_dict.txt'
     else:
         label_path = './Parameter/tag_dict2.txt'
-    # model = bert_bilstm_crf(max_seq_length, batch_size, epochs,
-    #              lstmDim, label_path, save_model_path)
+    model = bert_bilstm_crf(max_seq_length, batch_size, epochs,
+                 lstmDim, label_path, save_model_path)
     if if_train:
         model.TrainModel(train_data, test_data)
 
     # 测试
+    sentence = input('please input sentence:\n')
+    while sentence:
+        tag = model.ModelPredict(sentence)
+        print(tag)
+        sentence = input('please input sentence:\n')
     if in_web:
         model = None
         DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')
-    while 1:
-        sentence = input('please input sentence:\n')
-        tag = model.ModelPredict(sentence)
-        print(tag)
