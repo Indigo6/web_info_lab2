@@ -1,5 +1,5 @@
 # 用于 WEB_INFO 课程实验 2 的 keras_bert_ner
-[Orginal source](https://github.com/UmasouTTT/keras_bert_ner)
+[Orginal source](https://github.com/UmasouTTT/keras_bert_ner)  
 基于keras和keras_bert的中文命名实体识别，搭建的网络为bert+bilstm_crf
 运行main函数即可训练并使用模型
 ## Dpendencies
