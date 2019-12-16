@@ -29,7 +29,7 @@ if __name__ == "__main__":
     else:
       max_seq_length = 80
     batch_size = 24
-    epochs = 3
+    epochs = 10
     lstmDim = 64
     if in_web:
         label_path = './Parameter/tag_dict.txt'
@@ -42,9 +42,8 @@ if __name__ == "__main__":
 
     # 测试
     if in_web:
-        DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')    
-    else:
-        while 1:
-            sentence = input('please input sentence:\n')
-            tag = model.ModelPredict(sentence)
-            print(tag)
+        DealWithData.GenerateSubmit(model,'./Data/test.json','./Data/submit.csv')
+    while 1:
+        sentence = input('please input sentence:\n')
+        tag = model.ModelPredict(sentence)
+        print(tag)
