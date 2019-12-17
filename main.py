@@ -5,7 +5,7 @@ import json
 
 if __name__ == "__main__":
     in_web = True
-    if_train = True
+    if_train = False
     if_longer = True
     # 数据
     if not in_web:
@@ -18,17 +18,17 @@ if __name__ == "__main__":
     else:
         train_path = "./Data/train.txt"
         test_path = "./Data/validate.txt"
-        save_model_path = 'keras_bert_web_256e11'
+        save_model_path = 'keras_bert_web'
     if if_train:
         train_data = DealWithData.PreProcessData(train_path)
         test_data = DealWithData.PreProcessData(test_path)
 
     # 模型
     if if_longer:
-      max_seq_length = 128
+      max_seq_length = 256
     else:
       max_seq_length = 80
-    batch_size = 128
+    batch_size = 32
     epochs = 1
     lstmDim = 64
     if in_web:
@@ -55,4 +55,4 @@ if __name__ == "__main__":
     #     sentence = input('please input sentence:\n')
     if in_web:
         # model = None
-        DealWithData.GenerateSubmit(model, './Data/test.json',' ./Data/submit.csv', './Data/test_submit.csv')
+        DealWithData.GenerateSubmit(model, './Data/test.json', './Data/submit.csv', './Data/test_submit.csv')
