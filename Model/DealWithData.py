@@ -8,28 +8,34 @@ import re
 
 label_list = ['O', 'B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
               'I-MED', 'B-ANA', 'I-ANA']
+trouble = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~！？｡＂＃＄％＆＇（）＊＋，－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､、〃》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘\'‛“”„‟…‧﹏.'
+    
 
 def PreProcessData(path):
     sentences = []
     tags = []
     with open(path, encoding="utf-8") as data_file:
-        for sentence in data_file.read().strip().split('\n\n'):
-            if sentence is '' or sentence is '\n':
+        max_length = 0
+        for long_sentence in data_file.read().strip().split('\n\n'):
+            if long_sentence is '' or long_sentence is '\n':
                 continue
-            if len(sentence) >(256*3):  # 网络最长接受 256
-                shorter_sentences = sentence.split('， O')
-            else:
-                shorter_sentences = [sentence]
+            #if len(sentence) >(256*3):  # 网络最长接受 256
+            shorter_sentences = long_sentence.split('， O')
+            #else:
+                #shorter_sentences = [long_sentence]
             for sentence in shorter_sentences:
+                if len(sentence) > max_length:
+                    max_length = len(sentence)
+                    print(sentence)
                 _sentence = ""
                 tag = []
                 if sentence is '' or sentence is '\n':
                     continue
                 words = sentence.strip().split('\n')
-                if '，' in words[0]:  # 数据清洗
-                    words = words[1:]
-                i = 0
                 words_num = len(words)
+                i = 0
+                while i < words_num and words[i][0] in trouble: # 数据清洗,去除句首多余标点符号
+                    i += 1
                 while i < words_num:
                     word = words[i]
                     if len(word) >= 3:
@@ -45,6 +51,7 @@ def PreProcessData(path):
                     sentences.append(_sentence)
                     tags.append(tag)
     data = (sentences, tags)
+    print(max_length)
     return data
 
 
@@ -57,7 +64,7 @@ def GenerateData(json_path, train_path, validate_path, only_period):
     if only_period:
         split_sig = ['。']
     else:
-        split_sig = ['。', '，', ',', '.']
+        split_sig = ['，', '。', ',', ';', '；']
     with open(json_path, encoding='utf-8') as f:
         for line in f:  # every line is a json object
             start_sentence = 0
@@ -85,7 +92,7 @@ def GenerateData(json_path, train_path, validate_path, only_period):
                     datas[choose_index] += ' O\n'
                     if original_text[i] in split_sig:
                         datas[choose_index] += '\n'
-                        if sentence_cur - start_sentence >= 256:
+                        if sentence_cur - start_sentence >= 128:
                             num += 1
                             _max_sentence = sentence_cur - start_sentence
                             print(_max_sentence)
@@ -114,7 +121,7 @@ def GenerateData(json_path, train_path, validate_path, only_period):
                 datas[choose_index] += ' O\n'
                 if original_text[i] in split_sig:
                     datas[choose_index] += '\n'
-                    if sentence_cur - start_sentence >= 256:
+                    if sentence_cur - start_sentence >= 128:
                         num += 1
                         _max_sentence = sentence_cur - start_sentence
                         print(_max_sentence)
@@ -132,7 +139,7 @@ def MySplit(s, delimiters, start=0):
     last_pos = start
     cur_pos = start
     res = []
-    while(s[last_pos] in ['，', ' ', '。', ',', '.', ';', '；']):
+    while(s[last_pos] in trouble): # 数据清洗,去除句首多余标点符号
         last_pos += 1
         cur_pos += 1
     length = len(s)
@@ -146,7 +153,7 @@ def MySplit(s, delimiters, start=0):
                 else:
                     res.append((s[last_pos:cur_pos+1], last_pos))
             last_pos = cur_pos + 1
-            while(last_pos < length and s[last_pos] in ['，', ' ', '。', ',', '.', ';', '；']):
+            while(last_pos < length and s[last_pos] in trouble): # 数据清洗,去除句首多余标点符号
                 last_pos += 1
                 cur_pos += 1
         cur_pos += 1
@@ -169,6 +176,7 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
     label_map = {'B-LAB': '实验室检验', 'I-LAB': '实验室检验', 'B-RAY': '影像检查', 'I-RAY': '影像检查',
                  'B-OPE': '手术', 'I-OPE': '手术', 'B-DIS': '疾病和诊断', 'I-DIS': '疾病和诊断',
                  'B-MED': '药物', 'I-MED': '药物', 'B-ANA': '解剖部位', 'I-ANA': '解剖部位'}
+    # pdb.set_trace()
     with open(test_path, encoding='utf-8', mode='r') as reader:
         with open(submit_path, encoding='utf-8', mode='w', newline='') as writer:
           with open(test_submit_path, encoding='utf-8', mode='w', newline='') as test_writer:
@@ -188,8 +196,8 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
                 test_element = json.loads(line, encoding='utf-8')
                 original_text = test_element['originalText']
                 text_id = test_element['textId']
-                # delimiters = ['，', '。', ',', '.', ';', '；']
-                sentences_with_index = MySplit(original_text, ['。'])
+                delimiters = ['，', '。', ',', '.', ';', '；']
+                sentences_with_index = MySplit(original_text, delimiters)
                 # pdb.set_trace()
                 for sentence in sentences_with_index:
                   # if len(sentence[0])>256:
@@ -209,10 +217,10 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
                       j += 1
                       while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
                           j += 1
-                      # if tags[i][0] == 'I':
-                      #     start_pos = sentence[1] + i - 1
-                      # else:
-                      start_pos = sentence[1] + i
+                      if tags[i][0] == 'I':
+                          start_pos = sentence[1] + i - 1
+                      else:
+                          start_pos = sentence[1] + i
                       end_pos = sentence[1] + j
                       csv_writer.writerow([text_id, label, start_pos, end_pos])
                       # pdb.set_trace()
@@ -223,7 +231,7 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
 # test GenerateData
 if __name__ == '__main__':
     json_path = '../Data/train.json'
-    only_period = True
+    only_period = False
     train_path = '../Data/train.txt'
     validate_path = '../Data/validate.txt'
     max_length = GenerateData(json_path, train_path, validate_path, only_period)
