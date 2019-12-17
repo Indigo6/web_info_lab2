@@ -106,7 +106,6 @@ class bert_bilstm_crf:
         #训练集
         # pdb.set_trace()
         input_train_labels, input_train_types = self.PreProcessInputData(input_train)
-
         result_train = self.PreProcessOutputData(result_train)
         #测试集
         input_test_labels, input_test_types = self.PreProcessInputData(input_test)
