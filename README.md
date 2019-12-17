@@ -51,13 +51,30 @@
   label_list = ['O', 'B-LAB', 'I-LAB', 'B-RAY', 'I-RAY', 'B-OPE', 'I-OPE', 'B-DIS', 'I-DIS', 'B-MED',
                 'I-MED', 'B-ANA', 'I-ANA']
   
-  # Model/DealWithData
+  # Model/DealWithData/PreProcessData
   # word类似于 '胃 B-ANA'，要处理的是'  tag' 型数据
   if word[2:] not in label_list:  # 数据清洗，处理'\n  tag'的数据
       i += 1
       _sentence += words[i][0]	# 将输入数据记录为下一个word的输入
       tag.append(word)			# 将结果(tag)数据记录为当前word的tag
   ```
+
++ 对于如下残次预测结果的输出转换处理实验
+
+  ```python
+  患者因“直肠癌”小腹痛
+  ['O', 'O', 'O', 'O', 'B-DIS', 'I-DIS', 'I-DIS', 'O', 'O', 'I-DIS',]
+  ```
+
+  + 根据实验，有如下的处理——将 `'I-TAG'`前一位判别为 `'B-TAG'`的效果更好
+
+    ```python
+    # Model/DealWithData/GenerateSubmit
+    if tags[i][0] == 'I':
+        start_pos = sentence[1] + i - 1
+    else:
+        start_pos = sentence[1] + i
+    ```
 
 ## 模型
 
@@ -83,7 +100,7 @@ Trainable params: 101,908,816
 Non-trainable params: 0
 ```
 
-在 Colab 上使用 `Tesla K80 GPU`  训练 
+在 Colab 上使用 `Tesla K80 GPU`  将 3900 条数据用于训练，训练 1 epoch 得到  方林\_PB16110420\_江学强\_PB16120100\_lab2\_submission\_8.csv  的结果 
 
 ## 测试样例
 
