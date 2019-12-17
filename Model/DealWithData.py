@@ -26,7 +26,6 @@ def PreProcessData(path):
             for sentence in shorter_sentences:
                 if len(sentence) > max_length:
                     max_length = len(sentence)
-                    print(sentence)
                 _sentence = ""
                 tag = []
                 if sentence is '' or sentence is '\n':

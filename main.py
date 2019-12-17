@@ -25,11 +25,11 @@ if __name__ == "__main__":
 
     # 模型
     if if_longer:
-      max_seq_length = 256
+      max_seq_length = 128
     else:
       max_seq_length = 80
-    batch_size = 24
-    epochs = 10
+    batch_size = 128
+    epochs = 1
     lstmDim = 64
     if in_web:
         label_path = './Parameter/tag_dict.txt'
