@@ -67,7 +67,7 @@ def GenerateData(json_path, train_path, validate_path, only_period):
             element = json.loads(line, encoding='utf-8')
             entities = element['entities']  # entity array
             original_text = element['originalText']
-            if count <= 300:
+            if count <= 390:
                 choose_index = 0
             else:
                 choose_index = 1
@@ -132,20 +132,21 @@ def MySplit(s, delimiters, start=0):
     last_pos = start
     cur_pos = start
     res = []
-    while(s[last_pos] in ['，', '。', ',', '.', ';', '；']):
+    while(s[last_pos] in ['，', ' ', '。', ',', '.', ';', '；']):
         last_pos += 1
         cur_pos += 1
     length = len(s)
     while cur_pos < length:
         if s[cur_pos] in delimiters:
             if cur_pos > last_pos:
-                if (cur_pos + 1 - last_pos) > 255:
+                if (cur_pos +1 - last_pos) > 255:
+                    # pdb.set_trace()
                     temp_res = MySplit(s[:cur_pos+1], ['，', '。', ',', '.', ';', '；'], last_pos)
                     res.extend(temp_res)
                 else:
                     res.append((s[last_pos:cur_pos+1], last_pos))
             last_pos = cur_pos + 1
-            while(last_pos < length and s[last_pos] in ['，', '。', ',', '.', ';', '；']):
+            while(last_pos < length and s[last_pos] in ['，', ' ', '。', ',', '.', ';', '；']):
                 last_pos += 1
                 cur_pos += 1
         cur_pos += 1
@@ -163,15 +164,18 @@ def fmt_time(dtime):
                                       int(dtime * 1000) % 1000)
 
 
-def GenerateSubmit(model, test_path, submit_path):
+def GenerateSubmit(model, test_path, submit_path, test_submit_path):
     print('Start Generate Submit')
     label_map = {'B-LAB': '实验室检验', 'I-LAB': '实验室检验', 'B-RAY': '影像检查', 'I-RAY': '影像检查',
                  'B-OPE': '手术', 'I-OPE': '手术', 'B-DIS': '疾病和诊断', 'I-DIS': '疾病和诊断',
                  'B-MED': '药物', 'I-MED': '药物', 'B-ANA': '解剖部位', 'I-ANA': '解剖部位'}
     with open(test_path, encoding='utf-8', mode='r') as reader:
         with open(submit_path, encoding='utf-8', mode='w', newline='') as writer:
+          with open(test_submit_path, encoding='utf-8', mode='w', newline='') as test_writer:
             csv_writer = csv.writer(writer)
             csv_writer.writerow(['textId', 'label_type', 'start_pos', 'end_pos'])
+            test_csv_writer = csv.writer(test_writer)
+            test_csv_writer.writerow(['textId', 'label_type', 'start_pos', 'end_pos', 'content'])
             count = 0
             time_start = time.time()
             for line in reader:
@@ -180,35 +184,41 @@ def GenerateSubmit(model, test_path, submit_path):
                 #   break
                 elapsed = time.time() - time_start
                 eta = elapsed / count * (600-count)
-                print('[%d/600] Elapsed: %s, ETA>> %s' % 
-                        (count, fmt_time(elapsed), fmt_time(eta)))
+                print('[%d/600] Elapsed: %s, ETA>> %s' % (count, fmt_time(elapsed), fmt_time(eta)))
                 test_element = json.loads(line, encoding='utf-8')
                 original_text = test_element['originalText']
                 text_id = test_element['textId']
+                # delimiters = ['，', '。', ',', '.', ';', '；']
                 sentences_with_index = MySplit(original_text, ['。'])
+                # pdb.set_trace()
                 for sentence in sentences_with_index:
-                    # if len(sentence[0]) > 255:
-                    #     print('%d is too long for mdoel, original sentence: %s' % (len(sentence[0]), sentence[0]))
-                    # print(sentence[0])
-                    tags = model.ModelPredict(sentence[0])
-                    # print(tags)
-                    i = 0
-                    while i < len(tags):
-                        if tags[i] == 'O':
-                            i += 1
-                            continue
-                        j = i
-                        label = label_map[tags[i]]
-                        j += 1
-                        while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
-                            j += 1
-                        # if tags[i][0] == 'I':
-                        #     start_pos = sentence[1] + i - 1
-                        # else:
-                        start_pos = sentence[1] + i
-                        end_pos = sentence[1] + j
-                        csv_writer.writerow([text_id, label, start_pos, end_pos])
-                        i = j
+                  # if len(sentence[0])>256:
+                  #   print('Length error!')
+                  tags = model.ModelPredict(sentence[0])
+                  # 和test_sunmit.csv一起用，测试导出有没有问题
+                  # print(sentence[0])
+                  # print(sentence[1])
+                  # print(tags)
+                  i = 0
+                  while i < len(tags):
+                      if tags[i] == 'O':
+                          i += 1
+                          continue
+                      j = i
+                      label = label_map[tags[i]]
+                      j += 1
+                      while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
+                          j += 1
+                      # if tags[i][0] == 'I':
+                      #     start_pos = sentence[1] + i - 1
+                      # else:
+                      start_pos = sentence[1] + i
+                      end_pos = sentence[1] + j
+                      csv_writer.writerow([text_id, label, start_pos, end_pos])
+                      # pdb.set_trace()
+                      test_csv_writer.writerow([text_id, label, start_pos,
+                            end_pos, original_text[start_pos:end_pos]])
+                      i = j
 
 # test GenerateData
 if __name__ == '__main__':

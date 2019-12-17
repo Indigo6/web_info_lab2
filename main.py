@@ -18,7 +18,7 @@ if __name__ == "__main__":
     else:
         train_path = "./Data/train.txt"
         test_path = "./Data/validate.txt"
-        save_model_path = 'keras_bert_web_256e21'
+        save_model_path = 'keras_bert_web_256e11'
     if if_train:
         train_data = DealWithData.PreProcessData(train_path)
         test_data = DealWithData.PreProcessData(test_path)
@@ -48,11 +48,11 @@ if __name__ == "__main__":
     #     sentence = input('please input sentence:\n')
     # print(save_model_path)
     model.model.load_weights(save_model_path)
-    sentence = input('please input sentence:\n')
+    # sentence = input('please input sentence:\n')
     # while sentence:
     #     tag = model.ModelPredict(sentence)
     #     print(tag)
     #     sentence = input('please input sentence:\n')
     if in_web:
         # model = None
-        DealWithData.GenerateSubmit(model, './Data/test.json','./Data/submit.csv')
+        DealWithData.GenerateSubmit(model, './Data/test.json',' ./Data/submit.csv', './Data/test_submit.csv')

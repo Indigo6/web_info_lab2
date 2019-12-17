@@ -7,5 +7,6 @@ keras_bert
 */_ipynb_checkpoints
 main2.py
 */DealWithData2.py
-*/submit.csv
+*/submit*.csv
 input_labeling.py
+*.csv
