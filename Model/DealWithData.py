@@ -189,7 +189,7 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
                 for line in reader:
                     count += 1
                     # if count == 2:
-                    #   break
+                      # break
                     elapsed = time.time() - time_start
                     eta = elapsed / count * (600-count)
                     print('[%d/600] Elapsed: %s, ETA>> %s' % (count, fmt_time(elapsed), fmt_time(eta)))
@@ -219,11 +219,21 @@ def GenerateSubmit(model, test_path, submit_path, test_submit_path):
                             j += 1
                             while j < len(tags) and tags[j] != 'O' and tags[j][2:] == tags[i][2:] and tags[j][0] != 'B':
                                 j += 1
-                            # if tags[i][0] == 'I':
-                            #     start_pos = sentence[1] + i - 1
-                            # else:
-                            start_pos = sentence[1] + i
+                            if tags[i][0] == 'I':
+                                start_pos = sentence[1] + i - 1
+                            else:
+                                start_pos = sentence[1] + i
                             end_pos = sentence[1] + j
+                            # delete delimiters at start and end
+                            while(original_text[start_pos] in trouble
+                                  and start_pos <= end_pos):
+                                start_pos += 1
+                            while(original_text[end_pos-1] in trouble
+                                  and start_pos <= end_pos):
+                                end_pos -= 1
+                            if(end_pos <= start_pos):
+                                i = j
+                                continue
                             csv_writer.writerow([text_id, label, start_pos, end_pos])
                             # pdb.set_trace()
                             test_csv_writer.writerow([text_id, label, start_pos,
