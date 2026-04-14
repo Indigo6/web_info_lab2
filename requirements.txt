@@ -1,4 +1,4 @@
-keras==2.13.1
+keras==3.13.2
 keras_bert
 matplotlib
 git+https://www.github.com/keras-team/keras-contrib.git
